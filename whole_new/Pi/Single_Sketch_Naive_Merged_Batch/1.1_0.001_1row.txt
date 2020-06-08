@@ -1,0 +1,70 @@
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 2003
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.69018	through:9.09291e+06	error:1.43465	top_item(id:0	real:4147655	query:4152757)
+no threads:. 2	time:2.06196	through:1.62731e+07	error:1.4318	top_item(id:0	real:4147655	query:4090496)
+no threads:. 4	time:1.07849	through:3.11125e+07	error:1.42445	top_item(id:0	real:4147655	query:3942537)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.10764	through:5.49384e+06	error:1.43465	top_item(id:0	real:4147655	query:4152757)
+no threads:. 2	time:3.35158	through:1.00115e+07	error:1.42927	top_item(id:0	real:4147655	query:4035827)
+no threads:. 4	time:1.75901	through:1.90758e+07	error:1.42352	top_item(id:0	real:4147655	query:3920629)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 2003
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.72288	through:9.01304e+06	error:0.64528	top_item(id:0	real:4150100	query:4154723)
+no threads:. 2	time:2.07155	through:1.61978e+07	error:0.644285	top_item(id:0	real:4150100	query:4096640)
+no threads:. 4	time:1.08505	through:3.09244e+07	error:0.641394	top_item(id:0	real:4150100	query:3953908)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.14305	through:5.46218e+06	error:0.64528	top_item(id:0	real:4150100	query:4154723)
+no threads:. 2	time:3.35711	through:9.99505e+06	error:0.641692	top_item(id:0	real:4150100	query:4039793)
+no threads:. 4	time:1.73801	through:1.93062e+07	error:0.63789	top_item(id:0	real:4150100	query:3927572)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 2003
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.75366	through:8.93913e+06	error:0.401242	top_item(id:0	real:4149436	query:4162976)
+no threads:. 2	time:2.0834	through:1.61056e+07	error:0.400929	top_item(id:0	real:4149436	query:4101888)
+no threads:. 4	time:1.09881	through:3.0537e+07	error:0.400164	top_item(id:0	real:4149436	query:3960650)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.22766	through:5.38797e+06	error:0.401242	top_item(id:0	real:4149436	query:4162976)
+no threads:. 2	time:3.38089	through:9.92473e+06	error:0.40047	top_item(id:0	real:4149436	query:4045406)
+no threads:. 4	time:1.73927	through:1.92923e+07	error:0.399572	top_item(id:0	real:4149436	query:3928728)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 2003
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.74708	through:8.95483e+06	error:0.309033	top_item(id:0	real:4150561	query:4157374)
+no threads:. 2	time:2.07189	through:1.61951e+07	error:0.30881	top_item(id:0	real:4150561	query:4096223)
+no threads:. 4	time:1.08182	through:3.10168e+07	error:0.308132	top_item(id:0	real:4150561	query:3950156)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.20481	through:5.40781e+06	error:0.309033	top_item(id:0	real:4150561	query:4157374)
+no threads:. 2	time:3.45089	through:9.72342e+06	error:0.308366	top_item(id:0	real:4150561	query:4041587)
+no threads:. 4	time:1.75249	through:1.91467e+07	error:0.307579	top_item(id:0	real:4150561	query:3922854)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 2003
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.73946	through:8.97306e+06	error:1.03908	top_item(id:0	real:4148591	query:4154200)
+no threads:. 2	time:2.07478	through:1.61725e+07	error:1.03852	top_item(id:0	real:4148591	query:4093216)
+no threads:. 4	time:1.08626	through:3.089e+07	error:1.03702	top_item(id:0	real:4148591	query:3947251)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.19726	through:5.4144e+06	error:1.03908	top_item(id:0	real:4148591	query:4154200)
+no threads:. 2	time:3.37294	through:9.94813e+06	error:1.03595	top_item(id:0	real:4148591	query:4037688)
+no threads:. 4	time:1.74182	through:1.9264e+07	error:1.03222	top_item(id:0	real:4148591	query:3920814)
+

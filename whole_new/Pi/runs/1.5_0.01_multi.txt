@@ -1,0 +1,65 @@
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:32.2835	through:1.03937e+06	error:0.26586	top_item(id:0	real:12852791	query:12858220)
+no threads:. 2	time:16.3229	through:2.05566e+06	error:0.26586	top_item(id:0	real:12852791	query:12858220)
+no threads:. 4	time:11.6461	through:2.88118e+06	error:0.26586	top_item(id:0	real:12852791	query:12858220)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:29.4549	through:1.13918e+06	error:0.26586	top_item(id:0	real:12852791	query:12858220)
+no threads:. 2	time:14.8745	through:2.25583e+06	error:0.26586	top_item(id:0	real:12852791	query:12858220)
+no threads:. 4	time:10.6991	through:3.13619e+06	error:0.26586	top_item(id:0	real:12852791	query:12858220)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:32.294	through:1.03903e+06	error:0.296426	top_item(id:0	real:12854299	query:12859760)
+no threads:. 2	time:16.3684	through:2.04995e+06	error:0.296426	top_item(id:0	real:12854299	query:12859760)
+no threads:. 4	time:11.8103	through:2.8411e+06	error:0.296426	top_item(id:0	real:12854299	query:12859760)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:29.2135	through:1.14859e+06	error:0.296426	top_item(id:0	real:12854299	query:12859760)
+no threads:. 2	time:14.701	through:2.28245e+06	error:0.296426	top_item(id:0	real:12854299	query:12859760)
+no threads:. 4	time:9.95344	through:3.37114e+06	error:0.296426	top_item(id:0	real:12854299	query:12859760)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:32.2323	through:1.04102e+06	error:0.258725	top_item(id:0	real:12853003	query:12862368)
+no threads:. 2	time:15.9961	through:2.09767e+06	error:0.258725	top_item(id:0	real:12853003	query:12862368)
+no threads:. 4	time:11.1874	through:2.99931e+06	error:0.258725	top_item(id:0	real:12853003	query:12862368)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:29.3008	through:1.14517e+06	error:0.258725	top_item(id:0	real:12853003	query:12862368)
+no threads:. 2	time:14.7434	through:2.2759e+06	error:0.258725	top_item(id:0	real:12853003	query:12862368)
+no threads:. 4	time:9.88646	through:3.39398e+06	error:0.258725	top_item(id:0	real:12853003	query:12862368)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:32.7255	through:1.02533e+06	error:0.26458	top_item(id:0	real:12858012	query:12863809)
+no threads:. 2	time:16.2928	through:2.05947e+06	error:0.26458	top_item(id:0	real:12858012	query:12863809)
+no threads:. 4	time:11.3047	through:2.96819e+06	error:0.26458	top_item(id:0	real:12858012	query:12863809)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:29.1338	through:1.15173e+06	error:0.26458	top_item(id:0	real:12858012	query:12863809)
+no threads:. 2	time:14.6319	through:2.29324e+06	error:0.26458	top_item(id:0	real:12858012	query:12863809)
+no threads:. 4	time:9.91653	through:3.38369e+06	error:0.26458	top_item(id:0	real:12858012	query:12863809)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:31.7371	through:1.05726e+06	error:0.262533	top_item(id:0	real:12858515	query:12865634)
+no threads:. 2	time:16.0828	through:2.08635e+06	error:0.262533	top_item(id:0	real:12858515	query:12865634)
+no threads:. 4	time:10.7896	through:3.10989e+06	error:0.262533	top_item(id:0	real:12858515	query:12865634)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:28.7152	through:1.16852e+06	error:0.262533	top_item(id:0	real:12858515	query:12865634)
+no threads:. 2	time:14.1037	through:2.37913e+06	error:0.262533	top_item(id:0	real:12858515	query:12865634)
+no threads:. 4	time:9.16548	through:3.66096e+06	error:0.262533	top_item(id:0	real:12858515	query:12865634)
+

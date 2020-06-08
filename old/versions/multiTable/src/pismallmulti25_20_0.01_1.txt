@@ -1,0 +1,65 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+ Experimenting with multiple sketches distributed to the threads 
+Without Merged Hash Tables 
+	No thr.: 1	time: 66.156	through.: 507202	err:4.54483e-06	top_item(id:1048470	real:670217	query:670217)
+	No thr.: 2	time: 33.1995	through.: 1.01069e+06	err:4.54483e-06	top_item(id:1048470	real:670217	query:670217)
+	No thr.: 4	time: 17.0217	through.: 1.97127e+06	err:4.54483e-06	top_item(id:1048470	real:670217	query:670217)
+
+With Merged Hash Tables 
+	No thr.: 1	time: 57.5493	through.: 583056	err:4.54483e-06	top_item(id:1048470	real:670217	query:670217)
+	No thr.: 2	time: 28.7755	through.: 1.16608e+06	err:4.54483e-06	top_item(id:1048470	real:670217	query:670217)
+	No thr.: 4	time: 14.3955	through.: 2.3309e+06	err:4.54483e-06	top_item(id:1048470	real:670217	query:670217)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+ Experimenting with multiple sketches distributed to the threads 
+Without Merged Hash Tables 
+	No thr.: 1	time: 64.4542	through.: 520593	err:6.46829e-06	top_item(id:1048467	real:670763	query:670763)
+	No thr.: 2	time: 32.3628	through.: 1.03682e+06	err:6.46829e-06	top_item(id:1048467	real:670763	query:670763)
+	No thr.: 4	time: 16.2991	through.: 2.05867e+06	err:6.46829e-06	top_item(id:1048467	real:670763	query:670763)
+
+With Merged Hash Tables 
+	No thr.: 1	time: 57.4093	through.: 584477	err:6.46829e-06	top_item(id:1048467	real:670763	query:670763)
+	No thr.: 2	time: 28.714	through.: 1.16857e+06	err:6.46829e-06	top_item(id:1048467	real:670763	query:670763)
+	No thr.: 4	time: 14.3668	through.: 2.33556e+06	err:6.46829e-06	top_item(id:1048467	real:670763	query:670763)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+ Experimenting with multiple sketches distributed to the threads 
+Without Merged Hash Tables 
+	No thr.: 1	time: 62.9908	through.: 532688	err:0.00123261	top_item(id:1048464	real:669073	query:669073)
+	No thr.: 2	time: 32.0306	through.: 1.04757e+06	err:0.00123261	top_item(id:1048464	real:669073	query:669073)
+	No thr.: 4	time: 16.3601	through.: 2.05099e+06	err:0.00123261	top_item(id:1048464	real:669073	query:669073)
+
+With Merged Hash Tables 
+	No thr.: 1	time: 56.216	through.: 596884	err:0.00123261	top_item(id:1048464	real:669073	query:669073)
+	No thr.: 2	time: 28.2555	through.: 1.18754e+06	err:0.00123261	top_item(id:1048464	real:669073	query:669073)
+	No thr.: 4	time: 14.1919	through.: 2.36433e+06	err:0.00123261	top_item(id:1048464	real:669073	query:669073)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+ Experimenting with multiple sketches distributed to the threads 
+Without Merged Hash Tables 
+	No thr.: 1	time: 63.1347	through.: 531474	err:0.00124442	top_item(id:1048465	real:670234	query:670234)
+	No thr.: 2	time: 31.692	through.: 1.05877e+06	err:0.00124442	top_item(id:1048465	real:670234	query:670234)
+	No thr.: 4	time: 16.0157	through.: 2.0951e+06	err:0.00124442	top_item(id:1048465	real:670234	query:670234)
+
+With Merged Hash Tables 
+	No thr.: 1	time: 56.2901	through.: 596099	err:0.00124442	top_item(id:1048465	real:670234	query:670234)
+	No thr.: 2	time: 28.1573	through.: 1.19168e+06	err:0.00124442	top_item(id:1048465	real:670234	query:670234)
+	No thr.: 4	time: 14.1794	through.: 2.36642e+06	err:0.00124442	top_item(id:1048465	real:670234	query:670234)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+ Experimenting with multiple sketches distributed to the threads 
+Without Merged Hash Tables 
+	No thr.: 1	time: 63.0559	through.: 532138	err:0.00140258	top_item(id:1048466	real:668937	query:668937)
+	No thr.: 2	time: 31.6517	through.: 1.06011e+06	err:0.00140258	top_item(id:1048466	real:668937	query:668937)
+	No thr.: 4	time: 16.0418	through.: 2.09169e+06	err:0.00140258	top_item(id:1048466	real:668937	query:668937)
+
+With Merged Hash Tables 
+	No thr.: 1	time: 56.2403	through.: 596626	err:0.00140258	top_item(id:1048466	real:668937	query:668937)
+	No thr.: 2	time: 28.1211	through.: 1.19321e+06	err:0.00140258	top_item(id:1048466	real:668937	query:668937)
+	No thr.: 4	time: 14.1561	through.: 2.37032e+06	err:0.00140258	top_item(id:1048466	real:668937	query:668937)
+

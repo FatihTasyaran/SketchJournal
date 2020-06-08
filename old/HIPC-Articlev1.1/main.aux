@@ -1,0 +1,106 @@
+\relax 
+\citation{chandramouli2010}
+\citation{fan1998,duffield2001}
+\citation{brodnik1999}
+\citation{charikar2002}
+\citation{muthukrishnan2005}
+\citation{alon1996,charikar2002,dobra2002,gilbert2002}
+\citation{cormode2005}
+\citation{bloom1970}
+\citation{broder2002}
+\citation{cormode2005}
+\citation{cormode2003,cormode2005}
+\citation{patrascu2012,thorup2017}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
+\citation{zobrist1970}
+\citation{patrascu2012,thorup2017}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Notation and Background}{2}}
+\newlabel{sec:not}{{II}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Illustration of the insert operation for Count-Min Sketch\relax }}{2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:cms_insert}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Tabulation Hashing}{2}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces \textsc  {CMS-Construction}\relax }}{2}}
+\newlabel{alg:cms_construct}{{1}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Naive tabulation hashing in C++\relax }}{2}}
+\newlabel{fig:tabulation_seq}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Multiple Tabulation Hashes at Once}{2}}
+\newlabel{sec:tab}{{III}{2}}
+\citation{charikar2002}
+\citation{Goyal2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Memory access patterns for naive and merged tabulation for four hashes. The hash tables are colored with different colors. The accessed locations for both approaches are shown in black.\relax }}{3}}
+\newlabel{fig:merged_tabular_access}{{3}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Parallel Count-Min Sketch Construction}{3}}
+\newlabel{sec:par}{{IV}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Merged tabulation hashing implementation in C++\relax }}{3}}
+\newlabel{fig:tabulation_merged}{{4}{3}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces \textsc  {Naive-Parallel-CMS}\relax }}{3}}
+\newlabel{alg:cms_construct_par_nobuf}{{2}{3}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces \textsc  {Buffered-Parallel-CMS}\relax }}{4}}
+\newlabel{alg:cms_construct_par}{{3}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Experimental Results}{4}}
+\newlabel{sec:exp}{{V}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Parallel CMS construction with partial sketches}{4}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Parallel CMS construction times (in seconds) with naive and merged tabulation for $\tau \in \{1, 2, 4, 8, 16\}$ threads on \textbf  {Arch-1} and $\tau \in \{1, 2, 4\}$ threads on \textbf  {Arch-2}. The stream sizes for \textbf  {Arch-1} and \textbf  {Arch-2} are $N = 2^{30}$ and $N = 2^{25}$, respectively. The rows labeled with {\bf  small} and {\bf  large} denote the $8 \times 211$ and $8 \times 2003$ CMS tables, respectively. \relax }}{5}}
+\newlabel{tbl:mergedtbl}{{I}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Parallel CMS construction with a single sketch}{5}}
+\citation{cormode2005}
+\citation{cormode2012}
+\citation{cafaro2016}
+\citation{cafaro2018}
+\citation{Das2009}
+\citation{thorup2017,Dahlgaard2017}
+\citation{roy2016}
+\citation{Thomas2007}
+\bibstyle{IEEETrans}
+\bibdata{sketch}
+\bibcite{alon1996}{1}
+\bibcite{bloom1970}{2}
+\bibcite{broder2002}{3}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Other optimizations}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Related Work}{6}}
+\newlabel{sec:related}{{VI}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{6}}
+\newlabel{sec:con}{{VII}{6}}
+\@writefile{toc}{\contentsline {section}{References}{6}}
+\bibcite{brodnik1999}{4}
+\bibcite{cafaro2018}{5}
+\bibcite{cafaro2016}{6}
+\bibcite{chandramouli2010}{7}
+\bibcite{charikar2002}{8}
+\bibcite{cormode2003}{9}
+\bibcite{cormode2012}{10}
+\bibcite{cormode2005}{11}
+\bibcite{Dahlgaard2017}{12}
+\bibcite{Das2009}{13}
+\bibcite{dobra2002}{14}
+\bibcite{duffield2001}{15}
+\bibcite{fan1998}{16}
+\bibcite{gilbert2002}{17}
+\bibcite{Goyal2012}{18}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Parallel CMS construction times (in seconds) with a single sketch for $\tau \in \{1, 2, 4, 8, 16\}$ threads on \textbf  {Arch-1} and $\tau \in \{1, 2, 4\}$ threads on \textbf  {Arch-2}. The stream sizes for \textbf  {Arch-1} and \textbf  {Arch-2} are $N = 2^{30}$ and $N = 2^{25}$, respectively. The rows labeled with {\bf  small} and {\bf  large} denote the $8 \times 211$ and $8 \times 2003$ CMS tables, respectively. The {\bf  Naive Parallel} construction does not apply buffering or padding whereas the next two sets of columns apply these techniques. For {\bf  Buffered Parallel} construction w/out padding, when $\tau = 16$, all the threads are utilized for the first stage of Algorithm\nobreakspace  {}3\hbox {}, i.e., hashing, but only $d = 8$ of them are used for the second stage.\relax }}{7}}
+\newlabel{tbl:batch}{{II}{7}}
+\bibcite{muthukrishnan2005}{19}
+\bibcite{patrascu2012}{20}
+\bibcite{roy2016}{21}
+\bibcite{Thomas2007}{22}
+\bibcite{thorup2017}{23}
+\bibcite{zobrist1970}{24}
+\newlabel{fig:8x211arch1}{{5a}{8}}
+\newlabel{sub@fig:8x211arch1}{{a}{8}}
+\newlabel{fig:8x2003arch1}{{5b}{8}}
+\newlabel{sub@fig:8x2003arch1}{{b}{8}}
+\newlabel{fig:8x211arch2}{{5c}{8}}
+\newlabel{sub@fig:8x211arch2}{{c}{8}}
+\newlabel{fig:8x2003arch2}{{5d}{8}}
+\newlabel{sub@fig:8x2003arch2}{{d}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Execution times (in seconds) for hashing and update/insertion stages for single CMS sketch experiments. The execution times for the naive parallel approach are omitted for {\bf  Arch-1} since they are relatively much larger and deteriorate the visibility of the improvements.\relax }}{8}}
+\newlabel{fig:sum}{{5}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Impact of removing the barrier between the stages of buffered parallel execution on performance. The first set of the columns is the same with the last set of columns in Table\nobreakspace  {}II\hbox {}. The values in the table are in seconds.\relax }}{9}}
+\newlabel{tbl:barrier}{{III}{9}}
+\newlabel{fig:err1}{{6a}{9}}
+\newlabel{sub@fig:err1}{{a}{9}}
+\newlabel{fig:err2}{{6b}{9}}
+\newlabel{sub@fig:err2}{{b}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The difference between the frequency estimations of single and multithreaded executions of buffered parallel approach without the barrier. The charts show the differences for the top 1000 items for the {\bf  large} sketch on {\bf  Arch-1} and {\bf  small} sketch on {\bf  Arch-2}.\relax }}{9}}
+\newlabel{fig:err}{{6}{9}}

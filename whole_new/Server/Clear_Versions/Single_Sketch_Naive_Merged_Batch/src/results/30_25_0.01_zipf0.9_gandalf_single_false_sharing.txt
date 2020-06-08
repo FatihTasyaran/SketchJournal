@@ -1,0 +1,34 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 63.8426	through.: 1.68186e+07	err:6.8694	top_item(id:0	real:22875482	query:27116983)
+	No thr.: 2	time: 311.51	through.: 3.44689e+06	err:6.8391	top_item(id:0	real:22875482	query:26519819)
+	No thr.: 4	time: 298.261	through.: 3.60001e+06	err:6.76437	top_item(id:0	real:22875482	query:25064344)
+	No thr.: 8	time: 178.5	through.: 6.01535e+06	err:6.62914	top_item(id:0	real:22875482	query:22749569)
+	No thr.: 16	time: 121.191	through.: 8.85993e+06	err:6.38822	top_item(id:0	real:22875482	query:19502556)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 61.1706	through.: 1.75532e+07	err:6.8694	top_item(id:0	real:22875482	query:27116983)
+	No thr.: 2	time: 290.753	through.: 3.69297e+06	err:6.85008	top_item(id:0	real:22875482	query:26702847)
+	No thr.: 4	time: 290.297	through.: 3.69876e+06	err:6.79565	top_item(id:0	real:22875482	query:25601667)
+	No thr.: 8	time: 181.133	through.: 5.92792e+06	err:6.69672	top_item(id:0	real:22875482	query:23811080)
+	No thr.: 16	time: 120.501	through.: 8.91064e+06	err:6.52543	top_item(id:0	real:22875482	query:21151567)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 63.2333	through.: 1.69806e+07	err:6.83695	top_item(id:0	real:22850925	query:26971258)
+	No thr.: 2	time: 318.581	through.: 3.37038e+06	err:6.80512	top_item(id:0	real:22850925	query:26328160)
+	No thr.: 4	time: 296.014	through.: 3.62733e+06	err:6.73368	top_item(id:0	real:22850925	query:24955863)
+	No thr.: 8	time: 178.99	through.: 5.99888e+06	err:6.59938	top_item(id:0	real:22850925	query:22680961)
+	No thr.: 16	time: 121.261	through.: 8.8548e+06	err:6.36161	top_item(id:0	real:22850925	query:19381630)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 61.6408	through.: 1.74193e+07	err:6.83695	top_item(id:0	real:22850925	query:26971258)
+	No thr.: 2	time: 288.997	through.: 3.71541e+06	err:6.81719	top_item(id:0	real:22850925	query:26605225)
+	No thr.: 4	time: 283.77	through.: 3.78385e+06	err:6.76342	top_item(id:0	real:22850925	query:25571520)
+	No thr.: 8	time: 172.098	through.: 6.23913e+06	err:6.66755	top_item(id:0	real:22850925	query:23915292)
+	No thr.: 16	time: 116.25	through.: 9.23651e+06	err:6.50407	top_item(id:0	real:22850925	query:21531481)
+

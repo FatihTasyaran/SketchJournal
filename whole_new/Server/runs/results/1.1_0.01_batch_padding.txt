@@ -1,0 +1,75 @@
+Zipfian Distribution is: 1.1
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with batch 
+no thr:. 1	time: 59.9653	htime:13.0939	wtime:46.4261 	through.: 1.7906e+07	error:1.5596	top_item(id:0	real:122321328	query:124279916)
+no thr:. 2	time: 32.9292	htime:6.69248	wtime:25.8724 	through.: 3.26076e+07	error:1.5596	top_item(id:0	real:122321328	query:124279916)
+no thr:. 4	time: 19.9808	htime:3.76312	wtime:15.9205 	through.: 5.37387e+07	error:1.5596	top_item(id:0	real:122321328	query:124279882)
+no thr:. 8	time: 12.9251	htime:2.33143	wtime:10.3448 	through.: 8.30739e+07	error:1.5596	top_item(id:0	real:122321328	query:124279939)
+
+Experimenting with batch and padding
+no thr:. 1	time: 59.638	htime:12.8807	wtime:46.3287 	through.: 1.80043e+07	error:1.546	top_item(id:0	real:122321328	query:124375960)
+no thr:. 2	time: 31.5064	htime:6.76667	wtime:24.3295 	through.: 3.40801e+07	error:1.546	top_item(id:0	real:122321328	query:124375960)
+no thr:. 4	time: 17.4798	htime:3.80961	wtime:13.3251 	through.: 6.14277e+07	error:1.54601	top_item(id:0	real:122321328	query:124375960)
+no thr:. 8	time: 10.4194	htime:2.34622	wtime:7.82945 	through.: 1.03052e+08	error:1.546	top_item(id:0	real:122321328	query:124375975)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with batch 
+no thr:. 1	time: 60.8058	htime:13.2604	wtime:47.1094 	through.: 1.76585e+07	error:1.56118	top_item(id:0	real:122304507	query:124204714)
+no thr:. 2	time: 33.2947	htime:6.70194	wtime:26.201 	through.: 3.22497e+07	error:1.56118	top_item(id:0	real:122304507	query:124204710)
+no thr:. 4	time: 20.7618	htime:3.83477	wtime:16.6007 	through.: 5.17172e+07	error:1.56118	top_item(id:0	real:122304507	query:124204705)
+no thr:. 8	time: 13.0878	htime:2.33715	wtime:10.4837 	through.: 8.20414e+07	error:1.56118	top_item(id:0	real:122304507	query:124204443)
+
+Experimenting with batch and padding
+no thr:. 1	time: 59.5502	htime:12.8831	wtime:46.2455 	through.: 1.80309e+07	error:1.55111	top_item(id:0	real:122304507	query:124381922)
+no thr:. 2	time: 31.3074	htime:6.74043	wtime:24.2108 	through.: 3.42967e+07	error:1.55111	top_item(id:0	real:122304507	query:124381922)
+no thr:. 4	time: 17.4547	htime:3.83859	wtime:13.3235 	through.: 6.15159e+07	error:1.55111	top_item(id:0	real:122304507	query:124381922)
+no thr:. 8	time: 10.4416	htime:2.35048	wtime:7.80821 	through.: 1.02833e+08	error:1.55111	top_item(id:0	real:122304507	query:124381947)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with batch 
+no thr:. 1	time: 60.4638	htime:13.1971	wtime:46.8372 	through.: 1.77584e+07	error:1.55726	top_item(id:0	real:122332963	query:124406626)
+no thr:. 2	time: 32.998	htime:6.72374	wtime:25.9623 	through.: 3.25396e+07	error:1.55726	top_item(id:0	real:122332963	query:124406662)
+no thr:. 4	time: 20.8282	htime:3.79125	wtime:16.6983 	through.: 5.15523e+07	error:1.55726	top_item(id:0	real:122332963	query:124406626)
+no thr:. 8	time: 13.5068	htime:2.32867	wtime:10.9163 	through.: 7.94962e+07	error:1.55726	top_item(id:0	real:122332963	query:124406621)
+
+Experimenting with batch and padding
+no thr:. 1	time: 59.9032	htime:12.9406	wtime:46.5361 	through.: 1.79246e+07	error:1.56306	top_item(id:0	real:122332963	query:124351276)
+no thr:. 2	time: 30.8274	htime:6.65834	wtime:23.8385 	through.: 3.48307e+07	error:1.56306	top_item(id:0	real:122332963	query:124351050)
+no thr:. 4	time: 17.364	htime:3.7667	wtime:13.2636 	through.: 6.18372e+07	error:1.56306	top_item(id:0	real:122332963	query:124351211)
+no thr:. 8	time: 10.3987	htime:2.33828	wtime:7.79386 	through.: 1.03258e+08	error:1.56306	top_item(id:0	real:122332963	query:124351312)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with batch 
+no thr:. 1	time: 62.092	htime:14.3869	wtime:47.2454 	through.: 1.72927e+07	error:1.57293	top_item(id:0	real:122341535	query:124200930)
+no thr:. 2	time: 34.4101	htime:7.41424	wtime:26.506 	through.: 3.12043e+07	error:1.57293	top_item(id:0	real:122341535	query:124200917)
+no thr:. 4	time: 21.1952	htime:4.20983	wtime:16.6241 	through.: 5.06596e+07	error:1.57293	top_item(id:0	real:122341535	query:124200922)
+no thr:. 8	time: 14.0788	htime:2.55275	wtime:11.2387 	through.: 7.62668e+07	error:1.57294	top_item(id:0	real:122341535	query:124200204)
+
+Experimenting with batch and padding
+no thr:. 1	time: 61.2646	htime:14.2976	wtime:46.5392 	through.: 1.75263e+07	error:1.57253	top_item(id:0	real:122341535	query:124651431)
+no thr:. 2	time: 31.7954	htime:7.54233	wtime:23.7885 	through.: 3.37703e+07	error:1.57253	top_item(id:0	real:122341535	query:124651431)
+no thr:. 4	time: 17.8892	htime:4.26136	wtime:13.2685 	through.: 6.00219e+07	error:1.57254	top_item(id:0	real:122341535	query:124651430)
+no thr:. 8	time: 10.6929	htime:2.6025	wtime:7.83226 	through.: 1.00416e+08	error:1.57253	top_item(id:0	real:122341535	query:124650978)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with batch 
+no thr:. 1	time: 59.6689	htime:12.9356	wtime:46.2852 	through.: 1.7995e+07	error:1.59199	top_item(id:0	real:122374685	query:124346387)
+no thr:. 2	time: 33.6488	htime:6.66761	wtime:26.5545 	through.: 3.19102e+07	error:1.59199	top_item(id:0	real:122374685	query:124346264)
+no thr:. 4	time: 21.7372	htime:3.78576	wtime:17.5907 	through.: 4.93964e+07	error:1.59199	top_item(id:0	real:122374685	query:124346388)
+no thr:. 8	time: 14.3633	htime:2.31176	wtime:11.8009 	through.: 7.47558e+07	error:1.59199	top_item(id:0	real:122374685	query:124346385)
+
+Experimenting with batch and padding
+no thr:. 1	time: 59.9789	htime:12.956	wtime:46.5866 	through.: 1.7902e+07	error:1.55422	top_item(id:0	real:122374685	query:124223458)
+no thr:. 2	time: 31.1563	htime:6.68795	wtime:24.089 	through.: 3.44631e+07	error:1.55422	top_item(id:0	real:122374685	query:124223291)
+no thr:. 4	time: 17.4568	htime:3.80336	wtime:13.3011 	through.: 6.15085e+07	error:1.55422	top_item(id:0	real:122374685	query:124223483)
+no thr:. 8	time: 10.3962	htime:2.3465	wtime:7.77509 	through.: 1.03282e+08	error:1.55422	top_item(id:0	real:122374685	query:124223464)
+

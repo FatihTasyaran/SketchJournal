@@ -1,0 +1,34 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 62.9357	through.: 1.70609e+07	err:0.0850676	top_item(id:0	real:653066864	query:653071676)
+	No thr.: 2	time: 337.764	through.: 3.17897e+06	err:0.0913581	top_item(id:0	real:653066864	query:453712139)
+	No thr.: 4	time: 325.371	through.: 3.30005e+06	err:0.113912	top_item(id:0	real:653066864	query:221649026)
+	No thr.: 8	time: 233.55	through.: 4.59748e+06	err:0.134604	top_item(id:0	real:653066864	query:112812426)
+	No thr.: 16	time: 204.226	through.: 5.25761e+06	err:0.15337	top_item(id:0	real:653066864	query:61876050)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 59.6631	through.: 1.79968e+07	err:0.0850676	top_item(id:0	real:653066864	query:653071676)
+	No thr.: 2	time: 314.224	through.: 3.41712e+06	err:0.0875434	top_item(id:0	real:653066864	query:527354583)
+	No thr.: 4	time: 338.645	through.: 3.1707e+06	err:0.109297	top_item(id:0	real:653066864	query:244880418)
+	No thr.: 8	time: 253.055	through.: 4.24312e+06	err:0.125098	top_item(id:0	real:653066864	query:144059602)
+	No thr.: 16	time: 221.722	through.: 4.84275e+06	err:0.140837	top_item(id:0	real:653066864	query:85591183)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 62.8538	through.: 1.70832e+07	err:0.100556	top_item(id:0	real:653142966	query:653152162)
+	No thr.: 2	time: 343.392	through.: 3.12687e+06	err:0.106325	top_item(id:0	real:653142966	query:443635801)
+	No thr.: 4	time: 334.698	through.: 3.20809e+06	err:0.126175	top_item(id:0	real:653142966	query:218363544)
+	No thr.: 8	time: 240.082	through.: 4.4724e+06	err:0.14542	top_item(id:0	real:653142966	query:112436033)
+	No thr.: 16	time: 210.27	through.: 5.1065e+06	err:0.164355	top_item(id:0	real:653142966	query:57959177)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 59.5259	through.: 1.80382e+07	err:0.100556	top_item(id:0	real:653142966	query:653152162)
+	No thr.: 2	time: 357.782	through.: 3.00111e+06	err:0.103422	top_item(id:0	real:653142966	query:504107984)
+	No thr.: 4	time: 355.235	through.: 3.02262e+06	err:0.121244	top_item(id:0	real:653142966	query:251165981)
+	No thr.: 8	time: 270.361	through.: 3.97151e+06	err:0.136333	top_item(id:0	real:653142966	query:148030501)
+	No thr.: 16	time: 233.807	through.: 4.59242e+06	err:0.15132	top_item(id:0	real:653142966	query:90725794)
+

@@ -1,0 +1,70 @@
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.89398	through:8.61699e+06	error:23.2013	top_item(id:0	real:4150097	query:4677492)
+no threads:. 2	time:2.16655	through:1.54875e+07	error:22.8014	top_item(id:0	real:4150097	query:4596232)
+no threads:. 4	time:1.12511	through:2.98234e+07	error:21.9288	top_item(id:0	real:4150097	query:4418835)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.24039	through:5.37698e+06	error:23.2013	top_item(id:0	real:4150097	query:4677492)
+no threads:. 2	time:3.46548	through:9.68248e+06	error:22.5169	top_item(id:0	real:4150097	query:4538399)
+no threads:. 4	time:1.80272	through:1.86133e+07	error:21.8643	top_item(id:0	real:4150097	query:4405744)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.87953	through:8.64909e+06	error:5.77835	top_item(id:0	real:4149708	query:4217029)
+no threads:. 2	time:2.17502	through:1.54272e+07	error:5.75172	top_item(id:0	real:4149708	query:4150133)
+no threads:. 4	time:1.12787	through:2.97503e+07	error:5.69375	top_item(id:0	real:4149708	query:4008952)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.20003	through:5.41198e+06	error:5.77835	top_item(id:0	real:4149708	query:4217029)
+no threads:. 2	time:3.47139	through:9.66599e+06	error:5.73267	top_item(id:0	real:4149708	query:4103693)
+no threads:. 4	time:1.80525	through:1.85872e+07	error:5.68369	top_item(id:0	real:4149708	query:3993295)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.88042	through:8.64711e+06	error:3.63816	top_item(id:0	real:4148016	query:4240512)
+no threads:. 2	time:2.17585	through:1.54213e+07	error:3.63063	top_item(id:0	real:4148016	query:4171798)
+no threads:. 4	time:1.13466	through:2.95723e+07	error:3.61385	top_item(id:0	real:4148016	query:4026372)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.20241	through:5.4099e+06	error:3.63816	top_item(id:0	real:4148016	query:4240512)
+no threads:. 2	time:3.47755	through:9.64888e+06	error:3.6254	top_item(id:0	real:4148016	query:4125479)
+no threads:. 4	time:1.80849	through:1.85538e+07	error:3.61148	top_item(id:0	real:4148016	query:4016420)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.91027	through:8.5811e+06	error:3.52815	top_item(id:0	real:4149339	query:4213360)
+no threads:. 2	time:2.1806	through:1.53877e+07	error:3.51424	top_item(id:0	real:4149339	query:4148019)
+no threads:. 4	time:1.12918	through:2.97157e+07	error:3.48433	top_item(id:0	real:4149339	query:4009702)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.26815	through:5.35317e+06	error:3.52815	top_item(id:0	real:4149339	query:4213360)
+no threads:. 2	time:3.48574	through:9.62619e+06	error:3.50417	top_item(id:0	real:4149339	query:4101410)
+no threads:. 4	time:1.80803	through:1.85585e+07	error:3.47913	top_item(id:0	real:4149339	query:3992335)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 1 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:3.89915	through:8.60557e+06	error:2.91191	top_item(id:0	real:4148326	query:4197278)
+no threads:. 2	time:2.17417	through:1.54332e+07	error:2.90842	top_item(id:0	real:4148326	query:4131617)
+no threads:. 4	time:1.12059	through:2.99436e+07	error:2.90061	top_item(id:0	real:4148326	query:3989516)
+
+Single Table Merged Tabulation
+no threads:. 1	time:6.22014	through:5.39448e+06	error:2.91191	top_item(id:0	real:4148326	query:4197278)
+no threads:. 2	time:3.57598	through:9.38328e+06	error:2.90649	top_item(id:0	real:4148326	query:4089431)
+no threads:. 4	time:1.83403	through:1.82955e+07	error:2.89956	top_item(id:0	real:4148326	query:3979175)
+

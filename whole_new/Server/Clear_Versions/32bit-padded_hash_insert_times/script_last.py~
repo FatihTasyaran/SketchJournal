@@ -1,0 +1,40 @@
+import os, sys
+
+our_exec = "./zipf1.5nobarrierpis"
+ss = sys.argv[1]
+bs = sys.argv[2]
+col = sys.argv[3]
+row = sys.argv[4]
+maxt = sys.argv[5]
+dist = sys.argv[6]
+name_var = sys.argv[7]
+distvar1 = sys.argv[8]
+
+
+filename = ss + "_" + bs + "_" + col + "_" + distvar1 + "_" + namevar + ".txt"
+
+arg = our_exec + " " + ss + " " + bs + " " + col + " " + row + " " + maxt + " " + dist + " &>> " + filename
+
+for i in range(5):
+    os.system(arg)
+    print "Done!"
+
+
+if col == "0.01":
+   col = "0.001"
+else:
+   col = "0.01" 
+
+
+print "column size changed to: ", col
+
+filename = ss + "_" + bs + "_" + col + "_" + distvar1 + "_" + namevar + ".txt"
+
+arg = our_exec + " " + ss + " " + bs + " " + col + " " + row + " " + maxt + " " + dist + " &>> " + filename
+print"One Down!"
+
+for i in range(5):
+    os.system(arg)
+    print "Done!"
+
+print "Experiment Completed!"

@@ -1,0 +1,71 @@
+-Latek
+
+- Section 1 - belli -introduction
+data sketches
+count-min
+hash kullanimi
+tabular hash'i neden kullandik
+->kim önerdi
+->kim tarafindan bulundu
+->paraphrase ile
+->torop's makale @ acm
+
+Section 3- parallelization
+-çok tabloda sorun yok
+-sketch veri yapisi is combinable
+-farkli threadlerden gelen veriler
+birlestirilebilir
+-time-memory trading
+-> Race condition
+-> False sharing
+-> Ayni cache line farkli threadler
+   update ettigi zaman
+   cache-cocherency protokolü
+   sorun yaratiyor
+
+-> Synchronzation tools
+	->Lock
+	->Atomic
+
+Çok tabloluya focus olduk
+Daha çok memory kullaniyoruz ama
+performans artti
+
+Ayni tabular hash'i kullaniyorlar
+çünkü
+
+Biz onlari güzel birlestirmenin yolunu bulduk
+
+Yöntem
+parallelization with multiple
+hashing
+-concurrent hashing
+-synchronized hashing
+8 by 221
+
+Experiments ayri section
+-Bu deneyleri su makinada yaptik
+-Nebula'nin özellikleri
+-Linux versiyonu
+-OpenMP
+
+Conclusion
+-Kodu internete koyucaz
+ama simdi degil 
+-Reproducable research
+
+Speed-up formülü
+Ts -> Non-parallel
+T1
+T2 -> 2 thread
+
+__
+
+Errorler tablo
+Speed-up chart
+
+
+Son section -> Conclusion and future work
+Future work -> Raspberry pi veya odroid üzerinde
+
+bibtex -> referans -> -bip file

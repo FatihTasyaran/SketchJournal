@@ -1,0 +1,92 @@
+- Increasing batch size unexpectedly increases batched version's performance. This situation could be seen below and in Issue#1.png
+
+
+1024 batch size ile sonuçlar bu sekildeydi gandalf ve rpi'de.
+
+Zipf 3
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table
+Naive Single Table
+        No thr.: 1      time: 62.8338   through.: 1.70886e+07   err:0.0171356   top_item(id:0   real:893531539  query:893531539)
+        No thr.: 2      time: 371.575   through.: 2.88971e+06   err:0.0454388   top_item(id:0   real:893531539  query:527906321)
+        No thr.: 4      time: 344.216   through.: 3.11939e+06   err:0.0783941   top_item(id:0   real:893531539  query:249394942)
+        No thr.: 8      time: 290.531   through.: 3.69579e+06   err:0.0980609   top_item(id:0   real:893531539  query:124053291)
+        No thr.: 16     time: 269.732   through.: 3.98078e+06   err:0.114291    top_item(id:0   real:893531539  query:62260524)
+
+Single Table with Merged Hash Table
+        No thr.: 1      time: 61.9312   through.: 1.73376e+07   err:0.0171356   top_item(id:0   real:893531539  query:893531539)
+        No thr.: 2      time: 422.162   through.: 2.54344e+06   err:0.0357993   top_item(id:0   real:893531539  query:617998881)
+        No thr.: 4      time: 393.17    through.: 2.73098e+06   err:0.0723278   top_item(id:0   real:893531539  query:286418134)
+        No thr.: 8      time: 335.101   through.: 3.20423e+06   err:0.0876092   top_item(id:0   real:893531539  query:175695139)
+        No thr.: 16     time: 296.252   through.: 3.62441e+06   err:0.100931    top_item(id:0   real:893531539  query:111468624)
+
+Single Table with Merged Hash Table and Batch
+        No thr.: 1      time: 69.6904   through.: 1.54073e+07   err:0.0171356   top_item(id:0   real:893531539  query:893531539)
+        No thr.: 2      time: 46.2572   through.: 2.32124e+07   err:0.0171428   top_item(id:0   real:893531539  query:893531550)
+        No thr.: 4      time: 24.744    through.: 4.3394e+07    err:0.0171504   top_item(id:0   real:893531539  query:893531539)
+        No thr.: 8      time: 13.6451   through.: 7.86907e+07   err:0.0171582   top_item(id:0   real:893531539  query:893531507)
+        No thr.: 16     time: 11.4822   through.: 9.35139e+07   err:0.0171384   top_item(id:0   real:893531539  query:893531533)
+
+Zipf 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Naive Single Table
+        No thr.: 1      time: 29.3961   through.: 1.14146e+06   err:0.0129207   top_item(id:0   real:27918704   query:27918705)
+        No thr.: 2      time: 16.1948   through.: 2.07192e+06   err:0.0129369   top_item(id:0   real:27918704   query:27738259)
+        No thr.: 4      time: 8.40388   through.: 3.99273e+06   err:0.013144    top_item(id:0   real:27918704   query:27246580)
+
+Single Table with Merged Hash Table
+        No thr.: 1      time: 29.0319   through.: 1.15578e+06   err:0.0129207   top_item(id:0   real:27918704   query:27918705)
+        No thr.: 2      time: 15.6952   through.: 2.13788e+06   err:0.0168346   top_item(id:0   real:27918704   query:25109104)
+        No thr.: 4      time: 8.04318   through.: 4.17178e+06   err:0.0139955   top_item(id:0   real:27918704   query:27268750)
+
+Single Table with Merged Hash Table and Batch
+        No thr.: 1      time: 27.588    through.: 1.21627e+06   err:0.0129207   top_item(id:0   real:27918704   query:27918705)
+        No thr.: 2      time: 13.8399   through.: 2.42446e+06   err:0.0129207   top_item(id:0   real:27918704   query:27918705)
+        No thr.: 4      time: 7.01707   through.: 4.78183e+06   err:0.0129207   top_item(id:0   real:27918704   query:27918705)
+
+Bana cache line size küçülünce aslinda thread'lerin bir cache line'da alabildigi data azaldigi için synchronization daha iyi oluyor gibi geliyor. Zaten bir update'lik data oluyor cache line'da bu padding'le rpi'de performans artisi alamamizi da açiklayabilir diye düsündüm. Batchleri büyüttüm gandalfta bunu görmek için cache line'lar batchlerle daha iyi overlap edip farkli threadler integritylerini bozmasin diye. 1024 * 16, 1024 * 48 ve 1024 * 96 batch size ile denedim sonuçlar böyle geldi hocam. Bu rpi'da false sharing olmamasinin sebebi olabilir mi?
+
+1024 * 16
+
+Zipf 3
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Single Table with Merged Hash Table and Batch
+        No thr.: 1      time: 69.3323   through.: 1.54869e+07   err:0.010249    top_item(id:0   real:893873497  query:893873541)
+        No thr.: 2      time: 42.2087   through.: 2.54389e+07   err:0.0103043   top_item(id:0   real:893873497  query:893859698)
+        No thr.: 4      time: 23.791    through.: 4.51322e+07   err:0.0103431   top_item(id:0   real:893873497  query:893854013)
+        No thr.: 8      time: 12.3939   through.: 8.66344e+07   err:0.0100582   top_item(id:0   real:893873497  query:893863085)
+        No thr.: 16     time: 10.2041   through.: 1.05226e+08   err:0.0101309   top_item(id:0   real:893873497  query:893870493)
+
+
+
+1024 * 48
+
+Zipf 3
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Single Table with Merged Hash Table and Batch
+        No thr.: 1      time: 68.9431   through.: 1.55743e+07   err:0.018029    top_item(id:0   real:893516387  query:893502792)
+        No thr.: 2      time: 37.341    through.: 2.87551e+07   err:0.0180091   top_item(id:0   real:893516387  query:893461935)
+        No thr.: 4      time: 21.4191   through.: 5.01301e+07   err:0.0180091   top_item(id:0   real:893516387  query:893461935)
+        No thr.: 8      time: 11.9246   through.: 9.00443e+07   err:0.017832    top_item(id:0   real:893516387  query:893298376)
+        No thr.: 16     time: 10.3297   through.: 1.03947e+08   err:0.017832    top_item(id:0   real:893516387  query:893298376)
+
+1024 * 96
+
+Zipf 3
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Single Table with Merged Hash Table and Batch
+        No thr.: 1      time: 68.9953   through.: 1.55625e+07   err:0.0161957   top_item(id:0   real:893533550  query:893479035)
+        No thr.: 2      time: 36.0217   through.: 2.98082e+07   err:0.0161957   top_item(id:0   real:893533550  query:893479035)
+        No thr.: 4      time: 20.1605   through.: 5.32596e+07   err:0.0161688   top_item(id:0   real:893533550  query:893315625)
+        No thr.: 8      time: 10.8652   through.: 9.8824e+07    err:0.0161688   top_item(id:0   real:893533550  query:893315625)
+        No thr.: 16     time: 9.60715   through.: 1.11765e+08   err:0.0159398   top_item(id:0   real:893533550  query:892661562)
+

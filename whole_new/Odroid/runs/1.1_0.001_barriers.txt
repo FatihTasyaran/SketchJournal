@@ -1,0 +1,95 @@
+Zipf Distribution is: 1.1
+No barrier
+no thr:. 1	time: 20.4068	htime:1.15987	wtime:19.0684 	through.: 1.64428e+06	error:0.0870053	top_item(id:0	real:4145614	query:4149943)
+no thr:. 2	time: 11.0628	htime:0.604658	wtime:10.3602 	through.: 3.03308e+06	error:0.0870018	top_item(id:0	real:4145614	query:4149943)
+no thr:. 4	time: 5.63584	htime:0.314546	wtime:5.2554 	through.: 5.95376e+06	error:0.0870053	top_item(id:0	real:4145614	query:4149943)
+no thr:. 8	time: 3.70351	htime:0.257299	wtime:3.40681 	through.: 9.06018e+06	error:0.0869708	top_item(id:0	real:4145614	query:4131362)
+
+Half barrier
+no thr:. 1	time: 20.677	htime:1.38694	wtime:19.0863 	through.: 1.62279e+06	error:0.0849012	top_item(id:0	real:4145614	query:4149783)
+no thr:. 2	time: 11.2353	htime:0.770238	wtime:10.3475 	through.: 2.98652e+06	error:0.0849012	top_item(id:0	real:4145614	query:4149783)
+no thr:. 4	time: 5.77122	htime:0.428572	wtime:5.25957 	through.: 5.81409e+06	error:0.0849012	top_item(id:0	real:4145614	query:4149783)
+no thr:. 8	time: 3.75349	htime:0.308627	wtime:3.37433 	through.: 8.93954e+06	error:0.0848675	top_item(id:0	real:4145614	query:4126927)
+
+Full barrier
+no thr:. 1	time: 20.4409	htime:1.17195	wtime:19.0912 	through.: 1.64153e+06	error:0.0855075	top_item(id:0	real:4145614	query:4149267)
+no thr:. 2	time: 11.0621	htime:0.607536	wtime:10.3582 	through.: 3.03327e+06	error:0.0855075	top_item(id:0	real:4145614	query:4149267)
+no thr:. 4	time: 5.63868	htime:0.313891	wtime:5.25793 	through.: 5.95076e+06	error:0.0855075	top_item(id:0	real:4145614	query:4149267)
+no thr:. 8	time: 3.72106	htime:0.257539	wtime:3.41107 	through.: 9.01743e+06	error:0.0854825	top_item(id:0	real:4145614	query:4126973)
+
+Zipf Distribution is: 1.1
+No barrier
+no thr:. 1	time: 20.4287	htime:1.15904	wtime:19.0913 	through.: 1.64251e+06	error:0.085135	top_item(id:0	real:4147727	query:4152133)
+no thr:. 2	time: 11.0901	htime:0.601338	wtime:10.3884 	through.: 3.02563e+06	error:0.0851282	top_item(id:0	real:4147727	query:4152133)
+no thr:. 4	time: 5.65519	htime:0.312601	wtime:5.2762 	through.: 5.93339e+06	error:0.085135	top_item(id:0	real:4147727	query:4152133)
+no thr:. 8	time: 3.72852	htime:0.258671	wtime:3.42889 	through.: 8.9994e+06	error:0.0851058	top_item(id:0	real:4147727	query:4130795)
+
+Half barrier
+no thr:. 1	time: 20.6695	htime:1.38897	wtime:19.0764 	through.: 1.62338e+06	error:0.0876473	top_item(id:0	real:4147727	query:4150992)
+no thr:. 2	time: 11.2586	htime:0.769561	wtime:10.3714 	through.: 2.98033e+06	error:0.0876473	top_item(id:0	real:4147727	query:4150992)
+no thr:. 4	time: 5.77302	htime:0.427392	wtime:5.26333 	through.: 5.81229e+06	error:0.0876473	top_item(id:0	real:4147727	query:4150992)
+no thr:. 8	time: 3.76727	htime:0.30862	wtime:3.38559 	through.: 8.90683e+06	error:0.0876178	top_item(id:0	real:4147727	query:4128967)
+
+Full barrier
+no thr:. 1	time: 20.3879	htime:1.15407	wtime:19.0565 	through.: 1.6458e+06	error:0.0849554	top_item(id:0	real:4147727	query:4151894)
+no thr:. 2	time: 11.0542	htime:0.603147	wtime:10.3539 	through.: 3.03546e+06	error:0.0849554	top_item(id:0	real:4147727	query:4151894)
+no thr:. 4	time: 5.6325	htime:0.312324	wtime:5.25379 	through.: 5.95728e+06	error:0.0849554	top_item(id:0	real:4147727	query:4151894)
+no thr:. 8	time: 3.7326	htime:0.253768	wtime:3.42595 	through.: 8.98956e+06	error:0.084576	top_item(id:0	real:4147727	query:4131301)
+
+Zipf Distribution is: 1.1
+No barrier
+no thr:. 1	time: 20.3828	htime:1.15866	wtime:19.0461 	through.: 1.64621e+06	error:0.0812435	top_item(id:0	real:4144708	query:4148760)
+no thr:. 2	time: 11.0621	htime:0.604625	wtime:10.3592 	through.: 3.03328e+06	error:0.0812696	top_item(id:0	real:4144708	query:4148760)
+no thr:. 4	time: 5.63252	htime:0.313395	wtime:5.25276 	through.: 5.95727e+06	error:0.0812435	top_item(id:0	real:4144708	query:4148760)
+no thr:. 8	time: 3.69062	htime:0.254282	wtime:3.39711 	through.: 9.09183e+06	error:0.0812187	top_item(id:0	real:4144708	query:4135073)
+
+Half barrier
+no thr:. 1	time: 20.4796	htime:1.17587	wtime:19.0993 	through.: 1.63843e+06	error:0.0843356	top_item(id:0	real:4144708	query:4148580)
+no thr:. 2	time: 11.0831	htime:0.606015	wtime:10.3619 	through.: 3.02753e+06	error:0.0843356	top_item(id:0	real:4144708	query:4148580)
+no thr:. 4	time: 5.65682	htime:0.314988	wtime:5.25872 	through.: 5.93168e+06	error:0.0843356	top_item(id:0	real:4144708	query:4148580)
+no thr:. 8	time: 3.74116	htime:0.256031	wtime:3.41522 	through.: 8.96899e+06	error:0.0843121	top_item(id:0	real:4144708	query:4131555)
+
+Full barrier
+no thr:. 1	time: 20.3429	htime:1.15436	wtime:19.0108 	through.: 1.64944e+06	error:0.0847774	top_item(id:0	real:4144708	query:4148126)
+no thr:. 2	time: 11.0548	htime:0.601635	wtime:10.3551 	through.: 3.03527e+06	error:0.0847774	top_item(id:0	real:4144708	query:4148126)
+no thr:. 4	time: 5.62392	htime:0.311861	wtime:5.24436 	through.: 5.96638e+06	error:0.0847774	top_item(id:0	real:4144708	query:4148126)
+no thr:. 8	time: 3.70102	htime:0.252077	wtime:3.39786 	through.: 9.06626e+06	error:0.0847564	top_item(id:0	real:4144708	query:4127833)
+
+Zipf Distribution is: 1.1
+No barrier
+no thr:. 1	time: 20.4198	htime:1.15746	wtime:19.081 	through.: 1.64323e+06	error:0.0846827	top_item(id:0	real:4154912	query:4158439)
+no thr:. 2	time: 11.0702	htime:0.604341	wtime:10.3652 	through.: 3.03107e+06	error:0.0846761	top_item(id:0	real:4154912	query:4158439)
+no thr:. 4	time: 5.66191	htime:0.313193	wtime:5.28187 	through.: 5.92635e+06	error:0.0846827	top_item(id:0	real:4154912	query:4158439)
+no thr:. 8	time: 3.72402	htime:0.25758	wtime:3.4263 	through.: 9.01028e+06	error:0.084657	top_item(id:0	real:4154912	query:4138318)
+
+Half barrier
+no thr:. 1	time: 20.4445	htime:1.15284	wtime:19.0885 	through.: 1.64124e+06	error:0.0856658	top_item(id:0	real:4154912	query:4158298)
+no thr:. 2	time: 11.0794	htime:0.604597	wtime:10.3596 	through.: 3.02853e+06	error:0.0856658	top_item(id:0	real:4154912	query:4158298)
+no thr:. 4	time: 5.66905	htime:0.311693	wtime:5.27511 	through.: 5.91888e+06	error:0.0856658	top_item(id:0	real:4154912	query:4158298)
+no thr:. 8	time: 3.72367	htime:0.254261	wtime:3.40213 	through.: 9.01112e+06	error:0.0856441	top_item(id:0	real:4154912	query:4137311)
+
+Full barrier
+no thr:. 1	time: 20.4075	htime:1.15108	wtime:19.0767 	through.: 1.64422e+06	error:0.0878619	top_item(id:0	real:4154912	query:4158593)
+no thr:. 2	time: 11.0537	htime:0.598139	wtime:10.3564 	through.: 3.0356e+06	error:0.0878619	top_item(id:0	real:4154912	query:4158593)
+no thr:. 4	time: 5.6515	htime:0.310962	wtime:5.2727 	through.: 5.93726e+06	error:0.0878619	top_item(id:0	real:4154912	query:4158593)
+no thr:. 8	time: 3.71839	htime:0.253749	wtime:3.41209 	through.: 9.02391e+06	error:0.0878423	top_item(id:0	real:4154912	query:4138922)
+
+Zipf Distribution is: 1.1
+No barrier
+no thr:. 1	time: 20.4246	htime:1.15961	wtime:19.086 	through.: 1.64284e+06	error:0.0858216	top_item(id:0	real:4142536	query:4146700)
+no thr:. 2	time: 11.0707	htime:0.604828	wtime:10.3667 	through.: 3.03092e+06	error:0.08582	top_item(id:0	real:4142536	query:4146700)
+no thr:. 4	time: 5.64379	htime:0.312297	wtime:5.26489 	through.: 5.94538e+06	error:0.0858216	top_item(id:0	real:4142536	query:4146700)
+no thr:. 8	time: 3.72656	htime:0.256792	wtime:3.43064 	through.: 9.00412e+06	error:0.0857907	top_item(id:0	real:4142536	query:4125113)
+
+Half barrier
+no thr:. 1	time: 20.4041	htime:1.152	wtime:19.0485 	through.: 1.6445e+06	error:0.0823233	top_item(id:0	real:4142536	query:4146078)
+no thr:. 2	time: 11.0624	htime:0.605408	wtime:10.3429 	through.: 3.0332e+06	error:0.0823233	top_item(id:0	real:4142536	query:4146078)
+no thr:. 4	time: 5.64972	htime:0.312109	wtime:5.25531 	through.: 5.93913e+06	error:0.0823233	top_item(id:0	real:4142536	query:4146078)
+no thr:. 8	time: 3.7319	htime:0.253892	wtime:3.4068 	through.: 8.99125e+06	error:0.0822961	top_item(id:0	real:4142536	query:4124688)
+
+Full barrier
+no thr:. 1	time: 20.4182	htime:1.15394	wtime:19.0855 	through.: 1.64336e+06	error:0.0889586	top_item(id:0	real:4142536	query:4145996)
+no thr:. 2	time: 11.047	htime:0.60055	wtime:10.3487 	through.: 3.03743e+06	error:0.0889586	top_item(id:0	real:4142536	query:4145996)
+no thr:. 4	time: 5.63082	htime:0.310833	wtime:5.25193 	through.: 5.95906e+06	error:0.0889586	top_item(id:0	real:4142536	query:4145996)
+no thr:. 8	time: 3.70996	htime:0.252951	wtime:3.40767 	through.: 9.04441e+06	error:0.0889375	top_item(id:0	real:4142536	query:4125338)
+

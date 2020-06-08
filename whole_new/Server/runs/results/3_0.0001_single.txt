@@ -1,0 +1,32 @@
+Zipf Distribution is: 3
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:51.0195	through:2.10457e+07	error:0	top_item(id:0	real:893270927	query:893270927)
+no threads:. 2	time:141.218	through:7.60346e+06	error:0.0419718	top_item(id:0	real:893270927	query:527052527)
+no threads:. 4	time:91.9379	through:1.1679e+07	error:0.0771046	top_item(id:0	real:893270927	query:248552392)
+no threads:. 8	time:66.6719	through:1.61049e+07	error:0.0984193	top_item(id:0	real:893270927	query:125496421)
+
+Single Table Merged Tabulation
+no threads:. 1	time:47.3251	through:2.26887e+07	error:0	top_item(id:0	real:893270927	query:893270927)
+no threads:. 2	time:150.7	through:7.12505e+06	error:0.0442222	top_item(id:0	real:893270927	query:505394883)
+no threads:. 4	time:89.2222	through:1.20345e+07	error:0.0751429	top_item(id:0	real:893270927	query:253330145)
+no threads:. 8	time:54.001	through:1.98837e+07	error:0.0950661	top_item(id:0	real:893270927	query:131232569)
+
+Zipf Distribution is: 3
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:50.7586	through:2.11539e+07	error:0	top_item(id:0	real:893246603	query:893246603)
+no threads:. 2	time:130.424	through:8.23272e+06	error:0.042413	top_item(id:0	real:893246603	query:524818988)
+no threads:. 4	time:89.9132	through:1.1942e+07	error:0.0770134	top_item(id:0	real:893246603	query:249170251)
+no threads:. 8	time:67.1268	through:1.59957e+07	error:0.0983042	top_item(id:0	real:893246603	query:125642955)
+
+Single Table Merged Tabulation
+no threads:. 1	time:47.3425	through:2.26803e+07	error:0	top_item(id:0	real:893246603	query:893246603)
+no threads:. 2	time:148.958	through:7.20837e+06	error:0.0442134	top_item(id:0	real:893246603	query:505299459)
+no threads:. 4	time:88.294	through:1.2161e+07	error:0.0749797	top_item(id:0	real:893246603	query:253804488)
+no threads:. 8	time:54.3884	through:1.97421e+07	error:0.0949967	top_item(id:0	real:893246603	query:131300537)
+

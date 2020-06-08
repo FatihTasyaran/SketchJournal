@@ -1,0 +1,34 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 70.1819	through.: 1.52994e+07	err:0	top_item(id:32380025	real:1075628	query:1075628)
+	No thr.: 2	time: 221.298	through.: 4.85203e+06	err:0.000778893	top_item(id:32380025	real:1075628	query:1074682)
+	No thr.: 4	time: 229.623	through.: 4.67611e+06	err:0.00323059	top_item(id:32380025	real:1075628	query:1071883)
+	No thr.: 8	time: 147.555	through.: 7.27689e+06	err:0.00760215	top_item(id:32380025	real:1075628	query:1067002)
+	No thr.: 16	time: 118.289	through.: 9.07731e+06	err:0.01588	top_item(id:32380025	real:1075628	query:1057935)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 59.9823	through.: 1.7901e+07	err:0	top_item(id:32380025	real:1075628	query:1075628)
+	No thr.: 2	time: 232.3	through.: 4.62223e+06	err:0.000598956	top_item(id:32380025	real:1075628	query:1074943)
+	No thr.: 4	time: 227.076	through.: 4.72855e+06	err:0.00246386	top_item(id:32380025	real:1075628	query:1072974)
+	No thr.: 8	time: 137.795	through.: 7.7923e+06	err:0.00558316	top_item(id:32380025	real:1075628	query:1069504)
+	No thr.: 16	time: 94.8566	through.: 1.13196e+07	err:0.0115154	top_item(id:32380025	real:1075628	query:1062916)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 68.9185	through.: 1.55799e+07	err:0	top_item(id:4127195	real:1075806	query:1075806)
+	No thr.: 2	time: 226.567	through.: 4.73918e+06	err:0.000764384	top_item(id:4127195	real:1075806	query:1074966)
+	No thr.: 4	time: 235.254	through.: 4.56417e+06	err:0.00328335	top_item(id:4127195	real:1075806	query:1072339)
+	No thr.: 8	time: 148.2	through.: 7.24522e+06	err:0.00762693	top_item(id:4127195	real:1075806	query:1067569)
+	No thr.: 16	time: 110.087	through.: 9.7536e+06	err:0.0158982	top_item(id:4127195	real:1075806	query:1058548)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 60.2774	through.: 1.78133e+07	err:0	top_item(id:4127195	real:1075806	query:1075806)
+	No thr.: 2	time: 235.373	through.: 4.56188e+06	err:0.000600586	top_item(id:4127195	real:1075806	query:1075174)
+	No thr.: 4	time: 231.373	through.: 4.64074e+06	err:0.00247916	top_item(id:4127195	real:1075806	query:1073132)
+	No thr.: 8	time: 140.755	through.: 7.62844e+06	err:0.00563185	top_item(id:4127195	real:1075806	query:1069959)
+	No thr.: 16	time: 98.341	through.: 1.09186e+07	err:0.0116675	top_item(id:4127195	real:1075806	query:1063500)
+

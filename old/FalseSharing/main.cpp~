@@ -1,0 +1,40 @@
+#include <iostream>
+#include <random>
+#include <vector>
+#include <string.h>
+#include "omp.h"
+
+#define SIZE 32
+
+int main(int argc, char **argv) {
+
+  int *arr = new int[SIZE];
+  int tid;
+  int random_number;
+  int loc;
+  
+  for (int i = 0; i < SIZE; i++) {
+    arr[i] = 0;
+  }
+  
+  unsigned no_max_threads = atoi(argv[1]);
+  
+  
+  for (int nt=1; nt <= no_max_threads; nt*=2){
+    double cp1 = omp_get_wtime();
+#pragma omp parallel for num_threads(nt)
+    for (int j = 0 ; j < 2<<30; j++) {
+      tid = omp_get_thread_num();
+      random_number = std::rand();
+      loc = ((random_number + tid) + 1111) % 32;
+      arr[loc] += 1;
+    }
+    //std::cout << "sssss" << std::endl;
+    std::cout << nt << " Threads: " << omp_get_wtime() - cp1 << std::endl;
+  }
+  
+  
+  
+  
+}
+

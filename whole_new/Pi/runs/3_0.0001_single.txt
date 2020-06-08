@@ -1,0 +1,95 @@
+Zipf Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:29.5145	through:1.13688e+06	error:0	top_item(id:0	real:27916577	query:27916577)
+no threads:. 2	time:15.9949	through:2.09782e+06	error:0.000501602	top_item(id:0	real:27916577	query:27776723)
+no threads:. 4	time:11.6954	through:2.86902e+06	error:0.00176453	top_item(id:0	real:27916577	query:27425056)
+
+Single Table Merged Tabulation
+no threads:. 1	time:26.289	through:1.27637e+06	error:0	top_item(id:0	real:27916577	query:27916577)
+no threads:. 2	time:14.2714	through:2.35117e+06	error:0.0119959	top_item(id:0	real:27916577	query:24782408)
+no threads:. 4	time:9.72895	through:3.44893e+06	error:0.00613812	top_item(id:0	real:27916577	query:27060709)
+
+Single Table Merged Batched
+no threads:.1	time:25.1452	through:1.33442e+06	error:0	top_item(id:0	real:27916577	query:27916577)
+no threads:.2	time:12.3147	through:2.72475e+06	error:3.80421e-06	top_item(id:0	real:27916577	query:27916502)
+no threads:.4	time:8.24423	through:4.07005e+06	error:3.06241e-08	top_item(id:0	real:27916577	query:27916574)
+
+Zipf Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:28.02	through:1.19752e+06	error:0	top_item(id:0	real:27910448	query:27910448)
+no threads:. 2	time:15.1972	through:2.20793e+06	error:0.000660749	top_item(id:0	real:27910448	query:27726251)
+no threads:. 4	time:10.7654	through:3.11689e+06	error:0.00216181	top_item(id:0	real:27910448	query:27307513)
+
+Single Table Merged Tabulation
+no threads:. 1	time:25.8654	through:1.29727e+06	error:0	top_item(id:0	real:27910448	query:27910448)
+no threads:. 2	time:14.148	through:2.37167e+06	error:0.0121108	top_item(id:0	real:27910448	query:24754993)
+no threads:. 4	time:9.81665	through:3.41811e+06	error:0.006002	top_item(id:0	real:27910448	query:27141698)
+
+Single Table Merged Batched
+no threads:.1	time:24.8701	through:1.34919e+06	error:0	top_item(id:0	real:27910448	query:27910448)
+no threads:.2	time:12.3565	through:2.71553e+06	error:0.000219965	top_item(id:0	real:27910448	query:27910399)
+no threads:.4	time:8.56611	through:3.91711e+06	error:2.94279e-07	top_item(id:0	real:27910448	query:27910407)
+
+Zipf Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:28.8119	through:1.1646e+06	error:0	top_item(id:0	real:27911550	query:27911550)
+no threads:. 2	time:15.6618	through:2.14244e+06	error:0.000567185	top_item(id:0	real:27911550	query:27753292)
+no threads:. 4	time:11.3482	through:2.95681e+06	error:0.0018274	top_item(id:0	real:27911550	query:27401861)
+
+Single Table Merged Tabulation
+no threads:. 1	time:25.9999	through:1.29056e+06	error:0	top_item(id:0	real:27911550	query:27911550)
+no threads:. 2	time:14.143	through:2.37252e+06	error:0.0119913	top_item(id:0	real:27911550	query:24786607)
+no threads:. 4	time:9.72828	through:3.44916e+06	error:0.00627407	top_item(id:0	real:27911550	query:27003534)
+
+Single Table Merged Batched
+no threads:.1	time:24.8962	through:1.34778e+06	error:0	top_item(id:0	real:27911550	query:27911550)
+no threads:.2	time:12.2254	through:2.74464e+06	error:2.64557e-06	top_item(id:0	real:27911550	query:27911531)
+no threads:.4	time:8.54373	through:3.92738e+06	error:8.31379e-06	top_item(id:0	real:27911550	query:27911439)
+
+Zipf Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:28.4706	through:1.17856e+06	error:0	top_item(id:0	real:27914840	query:27914840)
+no threads:. 2	time:15.3792	through:2.18181e+06	error:0.000635374	top_item(id:0	real:27914840	query:27737687)
+no threads:. 4	time:10.5772	through:3.17233e+06	error:0.00204286	top_item(id:0	real:27914840	query:27345506)
+
+Single Table Merged Tabulation
+no threads:. 1	time:26.4395	through:1.2691e+06	error:0	top_item(id:0	real:27914840	query:27914840)
+no threads:. 2	time:14.3844	through:2.3327e+06	error:0.0119551	top_item(id:0	real:27914840	query:24803299)
+no threads:. 4	time:9.68721	through:3.46379e+06	error:0.00613733	top_item(id:0	real:27914840	query:27109380)
+
+Single Table Merged Batched
+no threads:.1	time:25.4701	through:1.3174e+06	error:0	top_item(id:0	real:27914840	query:27914840)
+no threads:.2	time:12.4772	through:2.68926e+06	error:2.46294e-05	top_item(id:0	real:27914840	query:27914816)
+no threads:.4	time:8.17117	through:4.10644e+06	error:3.7126e-06	top_item(id:0	real:27914840	query:27914765)
+
+Zipf Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:29.0812	through:1.15382e+06	error:0	top_item(id:0	real:27912756	query:27912756)
+no threads:. 2	time:15.8342	through:2.11912e+06	error:0.000608861	top_item(id:0	real:27912756	query:27742912)
+no threads:. 4	time:11.6135	through:2.88926e+06	error:0.0018278	top_item(id:0	real:27912756	query:27403251)
+
+Single Table Merged Tabulation
+no threads:. 1	time:25.9785	through:1.29162e+06	error:0	top_item(id:0	real:27912756	query:27912756)
+no threads:. 2	time:14.1189	through:2.37657e+06	error:0.0116345	top_item(id:0	real:27912756	query:24770580)
+no threads:. 4	time:9.83741	through:3.4109e+06	error:0.00663925	top_item(id:0	real:27912756	query:26945046)
+
+Single Table Merged Batched
+no threads:.1	time:24.7014	through:1.3584e+06	error:0	top_item(id:0	real:27912756	query:27912756)
+no threads:.2	time:12.2171	through:2.74651e+06	error:9.63966e-06	top_item(id:0	real:27912756	query:27912729)
+no threads:.4	time:8.2435	through:4.07041e+06	error:0.000179585	top_item(id:0	real:27912756	query:27912683)
+

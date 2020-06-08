@@ -1,0 +1,30 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:67.7916	through:1.58389e+07	error:0	top_item(id:32581352	real:1075632	query:1075632)
+no threads:. 2	time:77.0332	through:1.39387e+07	error:0.000936263	top_item(id:32581352	real:1075632	query:1074582)
+no threads:. 4	time:58.6662	through:1.83026e+07	error:0.00330693	top_item(id:32581352	real:1075632	query:1072042)
+no threads:. 8	time:36.8579	through:2.9132e+07	error:0.00798359	top_item(id:32581352	real:1075632	query:1066951)
+
+Single Table Merged Tabulation
+no threads:. 1	time:55.4662	through:1.93585e+07	error:0	top_item(id:32581352	real:1075632	query:1075632)
+no threads:. 2	time:81.2624	through:1.32133e+07	error:0.000713465	top_item(id:32581352	real:1075632	query:1074846)
+no threads:. 4	time:60.545	through:1.77346e+07	error:0.00240442	top_item(id:32581352	real:1075632	query:1072987)
+no threads:. 8	time:37.6755	through:2.84997e+07	error:0.00576455	top_item(id:32581352	real:1075632	query:1069406)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:68.4823	through:1.56791e+07	error:0	top_item(id:6476005	real:1075697	query:1075697)
+no threads:. 2	time:76.7208	through:1.39955e+07	error:0.000932096	top_item(id:6476005	real:1075697	query:1074683)
+no threads:. 4	time:59.0298	through:1.81898e+07	error:0.00332035	top_item(id:6476005	real:1075697	query:1072125)
+no threads:. 8	time:36.8094	through:2.91703e+07	error:0.00799	top_item(id:6476005	real:1075697	query:1067032)
+
+Single Table Merged Tabulation
+no threads:. 1	time:55.3031	through:1.94156e+07	error:0	top_item(id:6476005	real:1075697	query:1075697)
+no threads:. 2	time:81.9125	through:1.31084e+07	error:0.000711137	top_item(id:6476005	real:1075697	query:1074933)
+no threads:. 4	time:61.2608	through:1.75274e+07	error:0.00241163	top_item(id:6476005	real:1075697	query:1073079)
+no threads:. 8	time:37.6323	through:2.85325e+07	error:0.00575849	top_item(id:6476005	real:1075697	query:1069680)
+

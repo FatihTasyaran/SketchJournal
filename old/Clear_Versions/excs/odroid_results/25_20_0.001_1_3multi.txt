@@ -1,0 +1,75 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+--VERSION,MULTI_MERGED,
+,THR1,TIME,19.1424,ERR,0
+,THR2,TIME,9.52201,ERR,0
+,THR4,TIME,4.94471,ERR,0
+,THR8,TIME,3.04571,ERR,0
+
+--VERSION, MULTI_NAIVE
+,THR1,TIME,19.9232,ERR,0
+,THR2,TIME,10.2843,ERR,0
+,THR4,TIME,5.25697,ERR,0
+,THR8,TIME,3.1934,ERR,0
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+--VERSION,MULTI_MERGED,
+,THR1,TIME,19.0786,ERR,0
+,THR2,TIME,9.52583,ERR,0
+,THR4,TIME,4.80537,ERR,0
+,THR8,TIME,3.10881,ERR,0
+
+--VERSION, MULTI_NAIVE
+,THR1,TIME,19.7767,ERR,0
+,THR2,TIME,10.0395,ERR,0
+,THR4,TIME,5.1117,ERR,0
+,THR8,TIME,3.31361,ERR,0
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+--VERSION,MULTI_MERGED,
+,THR1,TIME,19.6376,ERR,0
+,THR2,TIME,9.79812,ERR,0
+,THR4,TIME,5.03082,ERR,0
+,THR8,TIME,3.18952,ERR,0
+
+--VERSION, MULTI_NAIVE
+,THR1,TIME,20.6966,ERR,0
+,THR2,TIME,10.4158,ERR,0
+,THR4,TIME,5.35586,ERR,0
+,THR8,TIME,3.2819,ERR,0
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+--VERSION,MULTI_MERGED,
+,THR1,TIME,20.8474,ERR,0
+,THR2,TIME,10.4125,ERR,0
+,THR4,TIME,5.32284,ERR,0
+,THR8,TIME,3.23842,ERR,0
+
+--VERSION, MULTI_NAIVE
+,THR1,TIME,20.922,ERR,0
+,THR2,TIME,10.6574,ERR,0
+,THR4,TIME,5.49365,ERR,0
+,THR8,TIME,3.27707,ERR,0
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+--VERSION,MULTI_MERGED,
+,THR1,TIME,20.7162,ERR,0
+,THR2,TIME,10.2469,ERR,0
+,THR4,TIME,5.26064,ERR,0
+,THR8,TIME,3.23589,ERR,0
+
+--VERSION, MULTI_NAIVE
+,THR1,TIME,20.5434,ERR,0
+,THR2,TIME,10.365,ERR,0
+,THR4,TIME,5.28346,ERR,0
+,THR8,TIME,3.3226,ERR,0
+

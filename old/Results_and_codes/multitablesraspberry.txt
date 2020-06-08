@@ -1,0 +1,13 @@
+No of elements in stream : 67108864
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+With Merged Hash Tables 
+	No thr.: 1	time: 113.82	through.: 589603	err:0	top_item(id:2097042	real:1338984	query:1338984)
+	No thr.: 2	time: 56.8484	through.: 1.18049e+06	err:0	top_item(id:2097042	real:1338984	query:1338984)
+	No thr.: 4	time: 28.8103	through.: 2.32934e+06	err:0	top_item(id:2097042	real:1338984	query:1338984)
+
+Without Merged Hash Tables 
+	No thr.: 1	time: 126.276	through.: 531445	err:0	top_item(id:2097042	real:1338984	query:1338984)
+	No thr.: 2	time: 62.7418	through.: 1.0696e+06	err:0	top_item(id:2097042	real:1338984	query:1338984)
+	No thr.: 4	time: 31.958	through.: 2.09991e+06	err:0	top_item(id:2097042	real:1338984	query:1338984)
+

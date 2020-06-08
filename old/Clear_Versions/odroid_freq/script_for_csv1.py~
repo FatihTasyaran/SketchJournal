@@ -1,0 +1,51 @@
+import pandas as pd
+import sys
+import numpy as np
+
+nmreal=sys.argv[1]
+nm4=sys.argv[2]
+nm8=sys.argv[3]
+#nm4=sys.argv[4]
+oname = sys.argv[4]
+
+filereal = open(nmreal,"r")
+file4 = open(nm4,"r")
+file8 = open(nm8,"r")
+#file4 = open(nm4,"r")
+
+lisreal = []
+lis4 = []
+lis8 = []
+#lis4 = []
+
+for row in filereal:
+    lisreal.append(row[0:-1])
+    
+testreal=pd.DataFrame(lisreal,columns=["Real"])
+testreal.reset_index(drop=True, inplace=True)
+
+for row in file4:
+    lis4.append(row[0:-1])
+    
+test4=pd.DataFrame(lis4,columns=["4 Thread"])
+test4.reset_index(drop=True, inplace=True)
+
+for row in file8:
+    lis8.append(row[0:-1])
+    
+test8=pd.DataFrame(lis2,columns=["8 Thread"])
+test8.reset_index(drop=True, inplace=True)
+
+#for row in file4:
+#    lis4.append(row[0:-1])
+    
+#test4=pd.DataFrame(lis4,columns=["4 Thread"])
+#test4.reset_index(drop=True, inplace=True)
+
+    
+q=pd.concat([testreal,test4,test8],axis=1)
+
+    
+q.to_csv(oname)
+
+print("done")

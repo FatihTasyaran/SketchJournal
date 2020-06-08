@@ -1,0 +1,85 @@
+\relax 
+\citation{muthukrishnan2005}
+\citation{alon1996,charikar2002,dobra2002,gilbert2002}
+\@writefile{toc}{\contentsline {title}{One Table to Count Them All:\unskip \ \ignorespaces Parallel Frequency Estimation on Single-Board Computers}{1}}
+\@writefile{toc}{\authcount {4}}
+\@writefile{toc}{\contentsline {author}{Fatih Ta\c {s}yaran \and Kerem Y{\i }ld{\i }r{\i }r\and \unskip \ \ignorespaces  Mustafa Kemal Ta\c {s} \and Kamer Kaya }{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{cormode2005}
+\citation{cormode2003,cormode2005}
+\citation{thorup2017}
+\citation{Dahlgaard2017}
+\citation{zobrist1970}
+\citation{patrascu2012,thorup2017}
+\citation{thorup2017}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Notation and Background}{3}}
+\newlabel{sec:not}{{2}{3}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces \textsc  {CMS-Construction}\relax }}{3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{alg:cms_construct}{{1}{3}}
+\@writefile{toc}{\contentsline {paragraph}{Tabulation Hash:}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Merged Tabulation with a Single Table}{4}}
+\newlabel{sec:tab}{{3}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ {\leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ }\belowdisplayskip \abovedisplayskip {Memory access patterns for naive and merged tabulation for four hashes. The hash tables are colored with different colors. The accessed locations are shown in black.}\relax }}{4}}
+\newlabel{fig:merged_tabular_access}{{1}{4}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces \textsc  {MergedHash}\relax }}{4}}
+\newlabel{algo:tabhash}{{2}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Parallel Count-Min Sketch Construction}{5}}
+\newlabel{sec:par}{{4}{5}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces \textsc  {Naive-Parallel-CMS}\relax }}{5}}
+\newlabel{alg:cms_construct_par_nobuf}{{3}{5}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {4}{\ignorespaces \textsc  {Buffered-Parallel-CMS}\relax }}{6}}
+\newlabel{alg:cms_construct_par}{{4}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Managing Heterogeneous Cores}{6}}
+\newlabel{sec:load}{{5}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ {\leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ }\belowdisplayskip \abovedisplayskip {For a single batch, rows $i$ and $i+1$ of CMS are updated by a fast and a slow core pair in two stages. In the first stage, the fast core performs row $i$ updates and the slow core processes row $i+1$ updates. In the second stage, they exchange the rows and complete the remaining updates on the counters for the current batch.}\relax }}{7}}
+\newlabel{fig:fastslow}{{2}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experimental Results}{7}}
+\newlabel{sec:exp}{{6}{7}}
+\citation{Zipf1935}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Multi Table vs. Single Table}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ {\leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ }\belowdisplayskip \abovedisplayskip {Performance comparison for multi-table\nobreakspace  {}(MT) and single table\nobreakspace  {}(ST) approaches. MT uses the one-sketch-per-core approach as suggested in the literature, MT+ is the MT-variant with merged tabulation. In all the figures, ST+ is the proposed scheme\nobreakspace  {}(as in Algorithm\nobreakspace  {}4\hbox {}), where in the last figure, ST++ is the ST+ variant using the load-balancing scheme for heterogeneous cores as described in Section\nobreakspace  {}5\hbox {}. For all the figures, the $x$-axis shows the algorithm and $\epsilon \in \{10^{-3}, 10^{-4}, 10^{-5}\}$ pair. The $y$-axis shows the runtimes in seconds; it does not start from 0 for a better visibility of performance differences. The first bar of each group shows the case when the data is generated using uniform distribution. The second and the third bars show the case for Zipfian distribution with the shape parameter $\alpha = 1.1$ and $1.5$, respectively.}\relax }}{9}}
+\newlabel{fig:main}{{3}{9}}
+\newlabel{fig:fs-small}{{4a}{10}}
+\newlabel{sub@fig:fs-small}{{a}{10}}
+\newlabel{fig:fs-large}{{4b}{10}}
+\newlabel{sub@fig:fs-large}{{b}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ {\leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ }\belowdisplayskip \abovedisplayskip {Plots of fast-to-slow ratio $F2S = \frac  {fastBatchSize}{slowBatchSize}$ of hashing and CMS update phases for consecutive batches and for small\nobreakspace  {}(left) and medum\nobreakspace  {}(right) sketches.}\relax }}{10}}
+\newlabel{fig:load}{{4}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Managing Heterogeneous Cores}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Single Table vs. Single Table}{10}}
+\citation{cormode2005}
+\citation{cormode2012}
+\citation{Das2009}
+\citation{cafaro2018}
+\citation{mandal18}
+\citation{roy2016}
+\citation{Thomas2007}
+\citation{thorup2017,Dahlgaard2017}
+\citation{charikar2002}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \relax \fontsize  {9}{11}\selectfont  \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ {\leftmargin \leftmargini \parsep 0\p@ plus1\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 0\p@ }\belowdisplayskip \abovedisplayskip {Throughputs for sketch generation - million items per second. For each architecture, the number of threads is set to either one or the number of cores.}\relax }}{11}}
+\newlabel{tab:throughputs}{{1}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Related Work}{11}}
+\newlabel{sec:related}{{7}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion and Future Work}{11}}
+\newlabel{sec:con}{{8}{11}}
+\bibstyle{splncs04}
+\bibdata{sketch}
+\bibcite{alon1996}{1}
+\bibcite{cafaro2018}{2}
+\bibcite{charikar2002}{3}
+\bibcite{cormode2003}{4}
+\bibcite{cormode2012}{5}
+\bibcite{cormode2005}{6}
+\bibcite{Dahlgaard2017}{7}
+\bibcite{Das2009}{8}
+\bibcite{dobra2002}{9}
+\bibcite{gilbert2002}{10}
+\bibcite{mandal18}{11}
+\bibcite{muthukrishnan2005}{12}
+\bibcite{patrascu2012}{13}
+\bibcite{roy2016}{14}
+\bibcite{Thomas2007}{15}
+\bibcite{thorup2017}{16}
+\bibcite{Zipf1935}{17}
+\bibcite{zobrist1970}{18}

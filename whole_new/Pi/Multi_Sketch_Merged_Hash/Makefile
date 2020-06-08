@@ -1,0 +1,6 @@
+all:
+	g++ main.cpp csketch.hpp csketch_merged.hpp hasher.hpp hasher_merged.hpp -O3 -o multitables -fopenmp -std=c++11
+	g++ main_naive.cpp csketch.hpp csketch_merged.hpp hasher.hpp hasher_merged.hpp -O3 -o multitables_naive -fopenmp -std=c++11
+	g++ main_merged.cpp csketch.hpp csketch_merged.hpp hasher.hpp hasher_merged.hpp -O3 -o multitables_merged -fopenmp -std=c++11
+
+#./pis 23 20 0.01 0.002 8 2

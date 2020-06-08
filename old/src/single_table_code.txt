@@ -1,0 +1,87 @@
+//Single table experiments
+//
+
+void experiment_single_table(CSketch<stype, dtype>& csketch, dtype* data, std::pair<stype, dtype>* &freq_decreasing) {
+  double* times = new double[no_max_threads + 1];
+  memset(times, 0, sizeof(double) * (no_max_threads + 1));
+  
+  for(unsigned nt = 1; nt <= no_max_threads; nt *= 2) {
+    csketch.reset();
+    double t1 = omp_get_wtime();
+#pragma omp parallel for schedule(guided,256) num_threads(nt)
+    for(unsigned long long i = 0; i < no_stream; i++) {
+      csketch.insert(data[i]);
+    }
+
+    times[nt] = omp_get_wtime() - t1;
+    std::cout << "\tNo thr.: " << nt << "\ttime: " << times[nt] << "\tthrough.: " << no_stream / times[nt];
+#ifdef CERROR
+    std::cout << "\terr:" << csketch.getError(freq_decreasing, TOP) << "\ttop_item(id:" <<  freq_decreasing[0].second << "\treal:" << freq_decreasing[0].first << "\tquery:" << csketch.query(freq_decreasing[0].second) << ")";
+#endif
+    std::cout<< std::endl;
+  }
+  std::cout<< std::endl;
+  delete [] times;
+}
+
+void experiment_single_table_m(CSketch_M<stype, dtype>& csketch, dtype* data, std::pair<stype, dtype>* &freq_decreasing) {
+  double* times = new double[no_max_threads + 1];
+  memset(times, 0, sizeof(double) * (no_max_threads + 1));
+  
+  for(unsigned nt = 1; nt <= no_max_threads; nt *= 2) {
+    csketch.reset();
+    double t1 = omp_get_wtime();
+#pragma omp parallel num_threads(nt)
+    {
+      uint32_t results_m[256];
+#pragma omp for schedule(guided,256)
+      for(unsigned long long i = 0; i < no_stream; i++) {
+	csketch.insert(data[i], results_m);
+      }
+    }
+
+    times[nt] = omp_get_wtime() - t1;
+    std::cout << "\tNo thr.: " << nt << "\ttime: " << times[nt] << "\tthrough.: " << no_stream / times[nt];
+#ifdef CERROR
+    std::cout << "\terr:" << csketch.getError(freq_decreasing, TOP) << "\ttop_item(id:" <<  freq_decreasing[0].second << "\treal:" << freq_decreasing[0].first << "\tquery:" << csketch.query(freq_decreasing[0].second) << ")";
+#endif
+    std::cout<< std::endl;
+  }
+  std::cout<< std::endl;
+  delete [] times;
+}
+
+
+//Declaring hash tables and single sketch
+
+TabularHash* h_hashes = new TabularHash[no_hashes];
+TabularHashMerged* h_hash_merged = new TabularHashMerged();
+  h_hash_merged->setHashTables(h_hashes);//replaced h with k
+  CountMinSketch_M<stype, dtype> cms_m(epsilon, delta); 
+  cms_m.set_hash(h_hash_merged);
+
+// Non-merged hash table insert
+
+virtual void insert_to_row(const d_type& data, unsigned row_id) {
+    unsigned col_id = this->hashes[row_id].hash(data) % this->no_cols;
+    this->add(row_id, col_id, 1);
+  }
+  
+  virtual void insert(const d_type& data) {
+    for(unsigned i = 0; i < this->no_rows; i++) {
+      insert_to_row(data, i);
+    }   
+  }
+
+// Merged hash table insert
+
+virtual void insert(const d_type& data, uint32_t results_m[256]) {
+    (this->hash_m)->hash(data, results_m);
+    //#pragma omp critical
+    //{
+      for(unsigned i = 0; i < this->no_rows; i++) {
+	unsigned col_id = (results_m[i]) % this->no_cols;
+	this->add(i, col_id, 1);
+      }
+      //}
+  }

@@ -1,0 +1,32 @@
+Zipf Distribution is: 1.1
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:65.1543	through:1.648e+07	error:0.00793485	top_item(id:0	real:122338236	query:122349145)
+no threads:. 2	time:71.9969	through:1.49137e+07	error:0.0130083	top_item(id:0	real:122338236	query:111519346)
+no threads:. 4	time:57.6676	through:1.86195e+07	error:0.0353983	top_item(id:0	real:122338236	query:89463433)
+no threads:. 8	time:37.5318	through:2.86089e+07	error:0.068466	top_item(id:0	real:122338236	query:63686614)
+
+Single Table Merged Tabulation
+no threads:. 1	time:54.1571	through:1.98264e+07	error:0.00793485	top_item(id:0	real:122338236	query:122349145)
+no threads:. 2	time:76.9915	through:1.39462e+07	error:0.0113829	top_item(id:0	real:122338236	query:113543423)
+no threads:. 4	time:60.4715	through:1.77562e+07	error:0.028089	top_item(id:0	real:122338236	query:95882036)
+no threads:. 8	time:38.4827	through:2.7902e+07	error:0.0555935	top_item(id:0	real:122338236	query:72381358)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:64.6043	through:1.66203e+07	error:0.00761991	top_item(id:0	real:122354273	query:122363333)
+no threads:. 2	time:73.0467	through:1.46994e+07	error:0.0128429	top_item(id:0	real:122354273	query:111508306)
+no threads:. 4	time:57.6362	through:1.86296e+07	error:0.0353665	top_item(id:0	real:122354273	query:89468184)
+no threads:. 8	time:37.6986	through:2.84822e+07	error:0.0686092	top_item(id:0	real:122354273	query:63615442)
+
+Single Table Merged Tabulation
+no threads:. 1	time:54.2083	through:1.98077e+07	error:0.00761991	top_item(id:0	real:122354273	query:122363333)
+no threads:. 2	time:76.1041	through:1.41089e+07	error:0.0111246	top_item(id:0	real:122354273	query:113625857)
+no threads:. 4	time:59.9185	through:1.792e+07	error:0.0278883	top_item(id:0	real:122354273	query:95978473)
+no threads:. 8	time:38.3824	through:2.79748e+07	error:0.0554081	top_item(id:0	real:122354273	query:72466666)
+

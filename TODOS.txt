@@ -1,0 +1,13 @@
+--With EuroPar Extended Edition
+       -> 2 new sketches
+       	  -> Count Sketch
+	  -> Count Min Min Sketch
+       -> 2 new devices (Single-Board)
+       -> Power consumption experiments
+       -> Cache experiments with bigger table
+       	  -> To see if Pi's big cache prevents false sharing.
+	     Bigger table on server could give hint.
+	  -> Referee comments
+	     -> Grammar check
+	     -> MergedHash pseudocode?
+	     -> Arch isimleri Arch1-Xeon, Arch2-Pi and Arch3-Odroid gibi düzeltilebilir.

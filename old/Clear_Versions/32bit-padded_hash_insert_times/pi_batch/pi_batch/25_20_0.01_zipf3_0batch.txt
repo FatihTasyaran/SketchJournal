@@ -1,0 +1,65 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 6.25e-07	htime:0	wtime:0 	through.: 5.36871e+13	err:1	top_item(id:0	real:27912409	query:0)
+	No thr.: 2	time: 6.77e-07	htime:0	wtime:0 	through.: 4.95634e+13	err:1	top_item(id:0	real:27912409	query:0)
+	No thr.: 4	time: 6.77e-07	htime:0	wtime:0 	through.: 4.95634e+13	err:1	top_item(id:0	real:27912409	query:0)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 2.6e-07	htime:0	wtime:0 	through.: 1.29056e+14	err:1	top_item(id:0	real:27912409	query:0)
+	No thr.: 2	time: 7.29e-07	htime:0	wtime:0 	through.: 4.6028e+13	err:1	top_item(id:0	real:27912409	query:0)
+	No thr.: 4	time: 6.77e-07	htime:0	wtime:0 	through.: 4.95634e+13	err:1	top_item(id:0	real:27912409	query:0)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 5.72e-07	htime:0	wtime:0 	through.: 5.86616e+13	err:1	top_item(id:0	real:27918781	query:0)
+	No thr.: 2	time: 7.82e-07	htime:0	wtime:0 	through.: 4.29085e+13	err:1	top_item(id:0	real:27918781	query:0)
+	No thr.: 4	time: 7.29e-07	htime:0	wtime:0 	through.: 4.6028e+13	err:1	top_item(id:0	real:27918781	query:0)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 2.09e-07	htime:0	wtime:0 	through.: 1.60547e+14	err:1	top_item(id:0	real:27918781	query:0)
+	No thr.: 2	time: 8.33e-07	htime:0	wtime:0 	through.: 4.02814e+13	err:1	top_item(id:0	real:27918781	query:0)
+	No thr.: 4	time: 6.77e-07	htime:0	wtime:0 	through.: 4.95634e+13	err:1	top_item(id:0	real:27918781	query:0)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 6.25e-07	htime:0	wtime:0 	through.: 5.36871e+13	err:1	top_item(id:0	real:27917300	query:0)
+	No thr.: 2	time: 8.33e-07	htime:0	wtime:0 	through.: 4.02814e+13	err:1	top_item(id:0	real:27917300	query:0)
+	No thr.: 4	time: 7.29e-07	htime:0	wtime:0 	through.: 4.6028e+13	err:1	top_item(id:0	real:27917300	query:0)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 2.6e-07	htime:0	wtime:0 	through.: 1.29056e+14	err:1	top_item(id:0	real:27917300	query:0)
+	No thr.: 2	time: 7.81e-07	htime:0	wtime:0 	through.: 4.29634e+13	err:1	top_item(id:0	real:27917300	query:0)
+	No thr.: 4	time: 6.78e-07	htime:0	wtime:0 	through.: 4.94903e+13	err:1	top_item(id:0	real:27917300	query:0)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 6.77e-07	htime:0	wtime:0 	through.: 4.95634e+13	err:1	top_item(id:0	real:27914602	query:0)
+	No thr.: 2	time: 9.9e-07	htime:0	wtime:0 	through.: 3.38934e+13	err:1	top_item(id:0	real:27914602	query:0)
+	No thr.: 4	time: 7.81e-07	htime:0	wtime:0 	through.: 4.29634e+13	err:1	top_item(id:0	real:27914602	query:0)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 2.6e-07	htime:0	wtime:0 	through.: 1.29056e+14	err:1	top_item(id:0	real:27914602	query:0)
+	No thr.: 2	time: 8.85e-07	htime:0	wtime:0 	through.: 3.79146e+13	err:1	top_item(id:0	real:27914602	query:0)
+	No thr.: 4	time: 6.77e-07	htime:0	wtime:0 	through.: 4.95634e+13	err:1	top_item(id:0	real:27914602	query:0)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 5.73e-07	htime:0	wtime:0 	through.: 5.85592e+13	err:1	top_item(id:0	real:27912708	query:0)
+	No thr.: 2	time: 8.86e-07	htime:0	wtime:0 	through.: 3.78718e+13	err:1	top_item(id:0	real:27912708	query:0)
+	No thr.: 4	time: 7.81e-07	htime:0	wtime:0 	through.: 4.29634e+13	err:1	top_item(id:0	real:27912708	query:0)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 3.12e-07	htime:0	wtime:0 	through.: 1.07546e+14	err:1	top_item(id:0	real:27912708	query:0)
+	No thr.: 2	time: 7.29e-07	htime:0	wtime:0 	through.: 4.6028e+13	err:1	top_item(id:0	real:27912708	query:0)
+	No thr.: 4	time: 7.3e-07	htime:0	wtime:0 	through.: 4.5965e+13	err:1	top_item(id:0	real:27912708	query:0)
+

@@ -1,0 +1,15 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 2003
+Experimenting with  single table 
+	No thr.: 1	time: 55.4664	through.: 1.93584e+07	err:0	top_item(id:2717908	real:1075474	query:1075474)
+	No thr.: 2	time: 158.547	through.: 6.77239e+06	err:0.149898	top_item(id:2717908	real:1075474	query:894576)
+	No thr.: 4	time: 238.509	through.: 4.50189e+06	err:0.287035	top_item(id:2717908	real:1075474	query:739775)
+	No thr.: 8	time: 201.798	through.: 5.32088e+06	err:0.306516	top_item(id:2717908	real:1075474	query:725704)
+	No thr.: 16	time: 184.765	through.: 5.8114e+06	err:0.352461	top_item(id:2717908	real:1075474	query:682081)
+
+	No thr.: 1	time: 56.6722	through.: 1.89466e+07	err:0	top_item(id:2717908	real:1075474	query:1075474)
+	No thr.: 2	time: 88.8324	through.: 1.20873e+07	err:0.000823567	top_item(id:2717908	real:1075474	query:1074584)
+	No thr.: 4	time: 104.662	through.: 1.02591e+07	err:0.00262001	top_item(id:2717908	real:1075474	query:1072638)
+	No thr.: 8	time: 122.761	through.: 8.74658e+06	err:0.00678113	top_item(id:2717908	real:1075474	query:1067778)
+	No thr.: 16	time: 103.839	through.: 1.03405e+07	err:0.013807	top_item(id:2717908	real:1075474	query:1060418)
+

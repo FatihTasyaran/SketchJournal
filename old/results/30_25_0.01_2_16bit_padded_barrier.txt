@@ -1,0 +1,6 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 67.8234	through.: 1.58314e+07	err:2.26742	top_item(id:32010927	real:1076004	query:2147709)
+	No thr.: 2	time: 57.9581	through.: 1.85262e+07	err:2.26742	top_item(id:32010927	real:1076004	query:2147709)

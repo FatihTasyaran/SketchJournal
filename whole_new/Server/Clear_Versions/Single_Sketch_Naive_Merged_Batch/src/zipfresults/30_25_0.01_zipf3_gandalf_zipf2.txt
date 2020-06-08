@@ -1,0 +1,34 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 62.9988	through.: 1.70438e+07	err:0.0235716	top_item(id:0	real:893628685	query:893628701)
+	No thr.: 2	time: 370.752	through.: 2.89612e+06	err:0.0503914	top_item(id:0	real:893628685	query:504532705)
+	No thr.: 4	time: 339.768	through.: 3.16022e+06	err:0.0801864	top_item(id:0	real:893628685	query:250124478)
+	No thr.: 8	time: 279.599	through.: 3.84029e+06	err:0.100426	top_item(id:0	real:893628685	query:125747426)
+	No thr.: 16	time: 256	through.: 4.19431e+06	err:0.117361	top_item(id:0	real:893628685	query:63702721)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 59.5915	through.: 1.80184e+07	err:0.0235716	top_item(id:0	real:893628685	query:893628701)
+	No thr.: 2	time: 470.713	through.: 2.2811e+06	err:0.0404554	top_item(id:0	real:893628685	query:607283794)
+	No thr.: 4	time: 422.872	through.: 2.53917e+06	err:0.0755646	top_item(id:0	real:893628685	query:276296229)
+	No thr.: 8	time: 334.881	through.: 3.20634e+06	err:0.0915189	top_item(id:0	real:893628685	query:165879331)
+	No thr.: 16	time: 303.171	through.: 3.5417e+06	err:0.105211	top_item(id:0	real:893628685	query:99484272)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Naive Single Table
+	No thr.: 1	time: 62.8591	through.: 1.70817e+07	err:0.0135206	top_item(id:0	real:893451476	query:893451605)
+	No thr.: 2	time: 374.291	through.: 2.86874e+06	err:0.0445399	top_item(id:0	real:893451476	query:522893458)
+	No thr.: 4	time: 342.011	through.: 3.13949e+06	err:0.0775832	top_item(id:0	real:893451476	query:251374336)
+	No thr.: 8	time: 277.592	through.: 3.86805e+06	err:0.0981764	top_item(id:0	real:893451476	query:126283762)
+	No thr.: 16	time: 245.752	through.: 4.3692e+06	err:0.115207	top_item(id:0	real:893451476	query:71216375)
+
+Single Table with Merged Hash Table
+	No thr.: 1	time: 59.7351	through.: 1.79751e+07	err:0.0135206	top_item(id:0	real:893451476	query:893451605)
+	No thr.: 2	time: 433.075	through.: 2.47934e+06	err:0.0320247	top_item(id:0	real:893451476	query:639467142)
+	No thr.: 4	time: 399.46	through.: 2.68799e+06	err:0.0726996	top_item(id:0	real:893451476	query:278059177)
+	No thr.: 8	time: 328.094	through.: 3.27266e+06	err:0.0878712	top_item(id:0	real:893451476	query:172866750)
+	No thr.: 16	time: 287.332	through.: 3.73694e+06	err:0.102161	top_item(id:0	real:893451476	query:105768175)
+

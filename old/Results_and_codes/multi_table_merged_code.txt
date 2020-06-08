@@ -1,0 +1,114 @@
+//Multi table merged hash table
+//Experiment
+void experiment_dist_sketch_m(std::vector<CSketch_M<stype, dtype>*>& csketches, CSketch_M<stype, dtype>& reduce_sketch, dtype* data, std::pair<stype, dtype>* &freq_decreasing) {
+  double* times = new double[no_max_threads + 1];
+  memset(times, 0, sizeof(double) * (no_max_threads + 1));
+  
+  for(unsigned nt = 1; nt <= no_max_threads; nt *= 2) {
+    for(unsigned t = 0; t < nt; t++) {
+      csketches[t]->reset();
+    }
+    
+    double t1 = omp_get_wtime();
+#pragma omp parallel num_threads(nt)
+    {
+      CSketch_M<stype, dtype>* my_sketch =  csketches[omp_get_thread_num()]; 
+#pragma omp for schedule(guided,256) 
+      for(unsigned long long i = 0; i < no_stream; i++) {
+	my_sketch->insert(data[i]);
+      }
+    }
+    times[nt] = omp_get_wtime() - t1;
+    std::cout << "\tNo thr.: " << nt << "\ttime: " << times[nt] << "\tthrough.: " << no_stream / times[nt];
+
+    reduce_sketch.reset();
+    for(unsigned tid = 0; tid < nt; tid++) {
+      for(unsigned r = 0; r < reduce_sketch.get_no_rows(); r++) {
+	for(unsigned c = 0; c < reduce_sketch.get_no_cols(); c++) {
+	  reduce_sketch.add(r, c, csketches[tid]->get(r, c));
+	}
+      }
+    }
+#ifdef CERROR
+    std::cout << "\terr:" << reduce_sketch.getError(freq_decreasing, TOP) << "\ttop_item(id:" <<
+      freq_decreasing[0].second << "\treal:" << freq_decreasing[0].first << "\tquery:" << reduce_sketch.query(freq_decreasing[0].second) << ")";
+#endif    
+    std::cout<< std::endl;
+  }
+  std::cout<< std::endl;
+  delete [] times;
+}
+
+//Declaring merged table sketch
+TabularHashMerged* h_hash_merged = new TabularHashMerged();
+  h_hash_merged->setHashTables(h_hashes);
+  CountMinSketch_M<stype, dtype> cms_m(epsilon, delta); 
+  cms_m.set_hash(h_hash_merged);
+
+//Declaring multiple sketches
+std::vector<CSketch_M<stype, dtype>*> mult_cms_m;
+  for(unsigned i = 0; i < no_max_threads; i++) {
+    CountMinSketch_M<stype, dtype>* tmp = new CountMinSketch_M<stype, dtype>(epsilon, delta);
+    tmp->set_hash(h_hash_merged);
+    mult_cms_m.push_back(tmp);
+  }
+  std::cout << " With Merged Hash Tables " << std::endl;
+  experiment_dist_sketch_m(mult_cms_m, cms_m, data, freq_decreasing);
+
+//İnsert with merged hash tables
+
+virtual void insert(const d_type& data) {
+    (this->hash_m)->hash(data, this->results_m);
+    for(unsigned i = 0; i < this->no_rows; i++) {
+      unsigned col_id = (this->results_m[i]) % this->no_cols;
+      this->add(i, col_id, 1);
+    }   
+  }
+
+//Synchronized Hashing
+void hash(const uint32_t data, uint32_t results[8]) const {
+
+    uint32_t i, j, c, x = data;
+    uint32_t h = 0, temp;
+
+    c = 8 * (x & mask);
+    results[0] = table[0][c];
+    results[1] = table[0][c + 1];
+    results[2] = table[0][c + 2];
+    results[3] = table[0][c + 3];
+    results[4] = table[0][c + 4];
+    results[5] = table[0][c + 5];
+    results[6] = table[0][c + 6];
+    results[7] = table[0][c + 7];
+    x = x >> 8;
+
+    for (i = 1; i < 4; i++) {
+      c = 8 * (x & mask);
+
+      results[0] ^= table[i][c];
+      results[1] ^= table[i][c + 1];
+      results[2] ^= table[i][c + 2];
+      results[3] ^= table[i][c + 3];
+      results[4] ^= table[i][c + 4];
+      results[5] ^= table[i][c + 5];
+      results[6] ^= table[i][c + 6];
+      results[7] ^= table[i][c + 7];
+
+      x = x >> 8;
+
+    }
+
+  }
+
+
+//Merging hash tables
+  void setHashTables(TabularHash* hashes) {
+    uint32_t i, j, k, *temp;
+    for (i = 0; i < 8; i++) {
+      for (j = 0; j < 4; j++) {
+	for (k = 0; k < 256; k++) {
+	  table[j][(k * 8) + i] = hashes[i].get(j,k);
+	}
+      }
+    }
+  }

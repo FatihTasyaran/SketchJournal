@@ -1,0 +1,15 @@
+1 Threads: 10.8139
+2 Threads: 12.2308
+4 Threads: 15.2437
+1 Threads: 10.6523
+2 Threads: 11.7851
+4 Threads: 14.926
+1 Threads: 10.7528
+2 Threads: 11.0343
+4 Threads: 15.0124
+1 Threads: 10.7489
+2 Threads: 10.9224
+4 Threads: 14.9212
+1 Threads: 10.6678
+2 Threads: 11.3718
+4 Threads: 14.9818

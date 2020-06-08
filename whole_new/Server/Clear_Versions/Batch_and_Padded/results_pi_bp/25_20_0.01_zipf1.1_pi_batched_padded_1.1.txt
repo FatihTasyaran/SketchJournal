@@ -1,0 +1,65 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.7298	through.: 1.21005e+06	err:1.28693	top_item(id:0	real:4146448	query:4199510)
+	No thr.: 2	time: 13.9382	through.: 2.40737e+06	err:1.28693	top_item(id:0	real:4146448	query:4199510)
+	No thr.: 4	time: 7.03468	through.: 4.76986e+06	err:1.28693	top_item(id:0	real:4146448	query:4199453)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.8516	through.: 1.20476e+06	err:1.27858	top_item(id:0	real:4146448	query:4197292)
+	No thr.: 2	time: 13.8915	through.: 2.41547e+06	err:1.27858	top_item(id:0	real:4146448	query:4197292)
+	No thr.: 4	time: 7.00217	through.: 4.792e+06	err:1.27858	top_item(id:0	real:4146448	query:4197316)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.817	through.: 1.20626e+06	err:1.26002	top_item(id:0	real:4148096	query:4201818)
+	No thr.: 2	time: 13.8938	through.: 2.41507e+06	err:1.26002	top_item(id:0	real:4148096	query:4201818)
+	No thr.: 4	time: 7.01667	through.: 4.7821e+06	err:1.26003	top_item(id:0	real:4148096	query:4201816)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.7763	through.: 1.20802e+06	err:1.30944	top_item(id:0	real:4148096	query:4208434)
+	No thr.: 2	time: 13.9735	through.: 2.40128e+06	err:1.30944	top_item(id:0	real:4148096	query:4208439)
+	No thr.: 4	time: 7.0467	through.: 4.76172e+06	err:1.30943	top_item(id:0	real:4148096	query:4208418)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.585	through.: 1.2164e+06	err:1.2759	top_item(id:0	real:4149418	query:4198067)
+	No thr.: 2	time: 13.8491	through.: 2.42286e+06	err:1.27589	top_item(id:0	real:4149418	query:4198067)
+	No thr.: 4	time: 7.01899	through.: 4.78052e+06	err:1.2759	top_item(id:0	real:4149418	query:4198139)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.8368	through.: 1.2054e+06	err:1.25803	top_item(id:0	real:4149418	query:4202777)
+	No thr.: 2	time: 13.8985	through.: 2.41426e+06	err:1.25802	top_item(id:0	real:4149418	query:4202779)
+	No thr.: 4	time: 7.01589	through.: 4.78263e+06	err:1.25803	top_item(id:0	real:4149418	query:4202779)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.7231	through.: 1.21034e+06	err:1.26541	top_item(id:0	real:4150675	query:4209246)
+	No thr.: 2	time: 13.9354	through.: 2.40785e+06	err:1.26542	top_item(id:0	real:4150675	query:4209231)
+	No thr.: 4	time: 7.03148	through.: 4.77203e+06	err:1.26541	top_item(id:0	real:4150675	query:4209250)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.8081	through.: 1.20664e+06	err:1.26417	top_item(id:0	real:4150675	query:4204551)
+	No thr.: 2	time: 13.8597	through.: 2.42101e+06	err:1.26417	top_item(id:0	real:4150675	query:4204551)
+	No thr.: 4	time: 7.00987	through.: 4.78674e+06	err:1.26415	top_item(id:0	real:4150675	query:4204575)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.4911	through.: 1.22056e+06	err:1.26965	top_item(id:0	real:4147513	query:4203398)
+	No thr.: 2	time: 13.8056	through.: 2.4305e+06	err:1.26965	top_item(id:0	real:4147513	query:4203398)
+	No thr.: 4	time: 6.98161	through.: 4.80612e+06	err:1.26964	top_item(id:0	real:4147513	query:4203373)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.6233	through.: 1.21472e+06	err:1.28262	top_item(id:0	real:4147513	query:4199772)
+	No thr.: 2	time: 13.857	through.: 2.42148e+06	err:1.28262	top_item(id:0	real:4147513	query:4199772)
+	No thr.: 4	time: 7.01999	through.: 4.77984e+06	err:1.28264	top_item(id:0	real:4147513	query:4199700)
+

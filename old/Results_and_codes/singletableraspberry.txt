@@ -1,0 +1,12 @@
+No of elements in stream : 67108864
+Size of the sketch: 8 by 2003
+ Experimenting With Single Table 
+	No thr.: 1	time: 127.993	through.: 524318	err:0	top_item(id:2097037	real:1339051	query:1339051)
+	No thr.: 2	time: 66.5268	through.: 1.00875e+06	err:0.000829283	top_item(id:2097037	real:1339051	query:1337013)
+	No thr.: 4	time: 34.1963	through.: 1.96246e+06	err:0.00129567	top_item(id:2097037	real:1339051	query:1336020)
+
+Experimenting With Single Table Using Merged Hash Table 
+	No thr.: 1	time: 112.034	through.: 599005	err:0	top_item(id:2097037	real:1339051	query:1339051)
+	No thr.: 2	time: 58.8757	through.: 1.13984e+06	err:0.00364183	top_item(id:2097037	real:1339051	query:1330222)
+	No thr.: 4	time: 30.9762	through.: 2.16646e+06	err:0.0100267	top_item(id:2097037	real:1339051	query:1313968)
+

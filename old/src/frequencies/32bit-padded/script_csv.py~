@@ -1,0 +1,16 @@
+import csv
+import itertools
+import sys
+
+name = sys.argv[1]
+
+import csv
+
+with open(name + ".txt", 'r') as f_in:
+    with open(name + ".csv", 'w') as f_out:
+        csv_reader = csv.reader(f_in, delimiter=',')
+        writer = csv.writer(f_out)
+        
+        for row in csv_reader:
+            writer.writerow(row + [row[0]]
+                            

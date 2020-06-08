@@ -1,0 +1,72 @@
+// Without merged hash
+// Experiment
+
+void experiment_dist_sketch(std::vector<CSketch<stype, dtype>*>& csketches, CSketch<stype, dtype>& reduce_sketch, dtype* data, std::pair<stype, dtype>* &freq_decreasing) {
+  double* times = new double[no_max_threads + 1];
+  memset(times, 0, sizeof(double) * (no_max_threads + 1));
+  
+  for(unsigned nt = 1; nt <= no_max_threads; nt *= 2) {
+    for(unsigned t = 0; t < nt; t++) {
+      csketches[t]->reset();
+    }
+    
+    double t1 = omp_get_wtime();
+#pragma omp parallel num_threads(nt)
+    {
+      CSketch<stype, dtype>* my_sketch =  csketches[omp_get_thread_num()]; 
+#pragma omp for schedule(guided,256) 
+      for(unsigned long long i = 0; i < no_stream; i++) {
+	my_sketch->insert(data[i]);
+      }
+    }
+    times[nt] = omp_get_wtime() - t1;
+    std::cout << "\tNo thr.: " << nt << "\ttime: " << times[nt] << "\tthrough.: " << no_stream / times[nt];
+
+    reduce_sketch.reset();
+    for(unsigned tid = 0; tid < nt; tid++) {
+      for(unsigned r = 0; r < reduce_sketch.get_no_rows(); r++) {
+	for(unsigned c = 0; c < reduce_sketch.get_no_cols(); c++) {
+	  reduce_sketch.add(r, c, csketches[tid]->get(r, c));
+	}
+      }
+    }
+#ifdef CERROR
+    std::cout << "\terr:" << reduce_sketch.getError(freq_decreasing, TOP) << "\ttop_item(id:" <<
+      freq_decreasing[0].second << "\treal:" << freq_decreasing[0].first << "\tquery:" << reduce_sketch.query(freq_decreasing[0].second) << ")";
+#endif    
+    std::cout<< std::endl;
+  }
+  std::cout<< std::endl;
+  delete [] times;
+}
+
+//Setting hash tables
+
+TabularHash* h_hashes = new TabularHash[no_hashes];
+cms.set_hashes(h_hashes);
+
+//Tabular Hash
+uint32_t hash(const uint32_t data) const {
+    uint32_t i, c, x = data;
+    uint32_t h = 0;
+    for (i = 0; i < 4; i++) {
+      c = x & mask;
+      h ^= table[i][c];
+      x = x >> 8;
+    }
+    return h;
+  }
+};
+
+//Insert without merged hash tables
+
+virtual void insert_to_row(const d_type& data, unsigned row_id) {
+    unsigned col_id = this->hashes[row_id].hash(data) % this->no_cols;
+    this->add(row_id, col_id, 1);
+  }
+  
+  virtual void insert(const d_type& data) {
+    for(unsigned i = 0; i < this->no_rows; i++) {
+      insert_to_row(data, i);
+    }   
+  }

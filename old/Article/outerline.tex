@@ -1,0 +1,193 @@
+\documentclass[10pt, conference, compsocconf]{IEEEtran}
+
+
+\let\labelindent\relax
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{soul}
+\usepackage{algorithmicx}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{subcaption}
+\everypar{\looseness=-1}
+
+\newcommand{\mcomment}[1]{{\color{blue}{{\bf{mstf: }}#1}}}
+
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+	\OLDthebibliography{#1}
+	\setlength{\parskip}{0pt}
+	\setlength{\itemsep}{0pt plus 0.3ex}
+}
+
+\floatname{algorithm}{Algorithm}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\newcommand{\vtxs}{{\tt vtxs}}
+\newcommand{\nbor}{{\tt nbor}}
+\newcommand{\nets}{{\tt nets}}
+
+\newcommand{\CP}{{\tt ColPack}\xspace}
+
+\newcommand{\todo}[1]{\color{red}\textbf{\hl{\{ #1 \}}}\color{black}\xspace}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pbox}
+
+\newtheorem{lemma}{\noindent Lemma}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+    
+	\title{Sketches on Raspberry Pi}
+	\author{
+		\IEEEauthorblockN{Fatih Ta\c{s}yaran}
+		\IEEEauthorblockN{Sabanc{\i}  University}
+			\and
+	
+			
+		\IEEEauthorblockN{Kamer Kaya}
+		\IEEEauthorblockN{Sabanc{\i} University}
+		\and	
+		\IEEEauthorblockN{Kerem Y{\i}ld{\i}r{\i}r}
+		\IEEEauthorblockN{Sabanc{\i} University}
+	}
+
+	
+\begin{document}
+	
+
+	\maketitle
+    \begin{abstract}
+    One of the biggest challenges in today's business and technology world is dealing with enormous chunks of data. Many problems fail to scale up to large scales as their memory and time requirements are too high to produce exact results. %One of the problems
+   % people encounter while working with big data is that it takes too much time to analyze it. 
+   Standard data structures like linked-lists
+    or hash tables are incompetent or inefficient for problems such as keeping track of the elements' frequency, or 
+    checking if an element is in the set or not. Hence, people are trying to come up with clever solutions such as data sketches. Data sketches are probabilistic data structures that give approximate results within mathematically proven error bounds while having orders of magnitude less memory and time complexities than traditional approaches. Hence they are ideal for architectures with limited memory and computation power such as {\tt Raspberry Pi}.
+    In this paper, we propose methods for adapting Count-Min Sketch to Raspberry Pi architectures. Also, we propose various optimizations to increase the efficiency without decreasing the accuracy of the algorithm.
+    
+\end{abstract}
+    \section{Introduction}
+    
+   Many applications in today's industry produce large amounts of data in high rates. Examples of such applications involve sensor networks, IP traffics, texts, financial markets etc. \mcomment{Belki buraya bi citation} Such data can scale up to massive amounts rapidly, making it impossible to store. Also, since the data arrive at real-time it is impractical to process it and find exact results to problems like frequency analysis or membership queries. Hence, there is a need for smarter algorithms and data structures which can operate on streaming data efficiently. 
+   
+   Sketching is a probabilistic data compression technique which can work on streaming data without requiring too much memory. \mcomment{Buraya kesin citation} Usually, sketching algorithms use random projections, i.e. hashing, to compress the actual data to much smaller datasets on which various analysis can be performed. Because of the compression being performed during the sketching, there is a trade-off between the accuracy of the final result and the size of the sketch. \mcomment {Bunun analizinin yapildigi bi citation daha}
+	  
+	One of the most popular sketches today is {\it Bloom Filters}(BF), which are one dimensional binary vectors. \mcomment{Bundan emin degilim, bloom filter sketch midir?} Bloom Filters are data structures optimized for membership queries. \mcomment{yapistir cite} They provide a very compact representation of the actual dataset by using multiple hash functions to represent each data and dedicating one bit to each result. Despite being quite powerful at answering membership queries, bloom filters fail to perform any kind of frequency analysis. Thus, a more sophisticated data structure is required.
+	
+	\mcomment{Array mi vector mu diyem}
+	
+	Count-Min Sketch (CMS) is a hashing based, probabilistic representation of a dataset, which is represented with a two dimensional vector of counters. Similar to BFs, CMSs use multiple hash functions to calculate the indices of counters to be incremented.  
+   
+    
+    Data sketches are derived from Bloom Filters, which are arrays that consist of 1 and 0s (Cormode, 2017). Bloom Filters are used in search and validation purposes. Bloom Filters(BF) can answer a query with 2 possible outputs: \begin{itemize}
+    	\item The element is definitely not in the data
+    	\item The element is probably in the data 
+    	
+    \end{itemize}
+    In ideal case, for $i$th element in the data, $BF[i]=1$. On the contrary, in real data, this is rarely the case. Even on hash table applications, there exists an item $i$ such that $h_{i}=h_{j}$. Still,
+    BM's are compact, nice structures. (Cormode, 2017)
+    
+    
+    Sketches are data structures which are used for following the frequencies of elements in a large data set. Main distinguishing feature of a sketch is that its size does not depend on size of the data set. Size of the sketch depends on two error parameters: $\delta$ and $\epsilon$, where $\epsilon$ is the minimum error rate  user can afford
+    and $\delta$ is the error frequency. 
+    Number of rows and columns in the sketch is computed with the following formulas: $$nrows=\log_{2}(\frac{1}{\delta})$$ 
+    $$ncols=\frac{2}{\epsilon}$$
+    A step by step explanation for Count-Min Sketch can be seen in Algorithm \ref{cms}.
+  
+    There are various hash functions for this purpose, but in this paper, our choice was Tabular Hashing. The reason behind this choice  is ,Tabular Hashing is simple, robust and easily implemented. We managed to improve total performance by merging the hash functions' tables, which led to a significant improvement performance-wise.
+    \section{Count-Min Sketch}
+
+In the application Count-Min Sketch(CMS), the element to be inserted is hashed $k$ times, where $k$ represents the number of rows. Each element is hashed by hash functions $h_{1},h_{2} \dots h_{k}$. Each hash function increments  $Sketch[i][h_{i}]$ where $i$ corresponds to  hash function's return value and $sketch$ refers to the sketch table. For queries, the minimum corresponding value of all rows is returned.(Cormode, 2017)
+
+  	
+  \renewcommand{\baselinestretch}{0.9}
+  \begin{algorithm}[H]
+  	\small
+ 
+  	\caption{\textsc{Count Min Sketch}}
+  	 	\label{cms}
+  	\algorithmicrequire{$\delta$ and $\epsilon$}
+  	\begin{algorithmic}[1]
+		  	
+		  	\State{Initialize $Sketch$ with $\log(\frac{1}{\delta})$ rows and $\frac{2}{\epsilon}$ columns}
+
+		  	\For{$element$ in $Stream$}
+		  		\For{$row$ in $Sketch$}
+		  			\State{$hash_{row}$$(element)$}
+				\EndFor
+			\EndFor
+
+
+	\end{algorithmic}
+
+  \end{algorithm}
+  	
+  	
+  	
+    \section{Tabular Hashing}
+    In Count-Min Sketch, elements that will be inserted to the sketch must be hashed for each row. Tabular Hashing is a hashing algorithm which first introduced in an article by Zobrist to avoid recalculations of board configurations at the current state in board games.(Thorup, 2012) It is a  strong hash function which grants significant level of randomness. Hashing  process requires a table filled with random integers.  After  initializing the table, hash function can be used. With using the fastest known hashing scheme multiplication-shift hashing. Hash function takes an 32-bit integer $x$ as input. It divides $x$ into 4 8-bit chunks and iterates them in order. At each iteration, logical AND operation is done between the element and an 8-bit mask which consists of zeros.
+    With this, it is guaranteed that first 8-bits of the 32-bit integer becomes zero. This also changes the value of element $x$, to another integer $c$. Then, logical XOR operation is applied between changed element and the integer in hash table which is on the $ith$ row where $0 \leq i < 4$ and $cth$ column and assigned to a variable $h$. At the end of iteration, $x$ is shifted right 8-bits. When all iterations are done a unique $h$ value has been achieved.
+	 \begin{algorithm}
+		\small
+		
+	
+		\begin{algorithmic}[1]
+			\Function{Hash}{$data$}
+			\State{\textbf{unsigned integer} $i,c,x = data$}
+			\State{\textbf{unsigned integer} $mask$ = 0 }
+			\State{$h = 0$}
+			\For {$i = 0 \to 3$}
+			\State{c = $x$ \& mask}
+			\State{h = h $\oplus$ table[i][c] }
+			\State $x \gets \Call{ShiftLeft}{x,8}$
+			\EndFor
+			\Return{h}
+			\EndFunction
+		\end{algorithmic}
+		
+	\end{algorithm}
+	
+
+
+    \section{Parallelization}
+    The sketch can be seen as a sum of arbitrary sketches..
+    \subsection{Synchronization Problems With Parallelization}
+    \subsubsection{Race Condition}
+    In multi thread programs..
+    \subsubsection{False Sharing}
+    In symmetric multiprocessor systems..
+    \subsubsection{Synchronization Tools}
+    Synchronization is bringing one or more.. 
+    
+    \section{Better Spatial Locality With Synchronized Hashing}
+    We develop a new scheme for tabulation hashing..
+
+    \section{Batching Hash Values}
+    For the purpose of more efficient use of threads and cache lines..
+
+    \section{Padding}
+    After batch implementation, we implement padding for the arrays using for write on sentinel sketch..
+
+    \section{16-Bit}
+    We are still on it..
+
+    \section{Experiments}
+    There are plenty of experiments and there will be more..
+
+    \section{Conclusion}
+
+
+    \section{References}
+    
+    
+\end{document}

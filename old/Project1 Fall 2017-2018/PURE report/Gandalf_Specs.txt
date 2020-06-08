@@ -1,0 +1,12 @@
+System:
+
+CentOS 6.5 x86_64, Linux 2.6.32-431.el6.x86_64
+
+CPU:
+
+Intel(R) Xeon(R) CPU E7-4870 v2 @ 2.30GHz (Bu islemciden iki tane var)
+
+Memtotal: 529170124 kb
+
+//module load gcc/5.3.0 kullandik
+

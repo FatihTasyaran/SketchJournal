@@ -1,0 +1,65 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 26.7397	through.: 1.25486e+06	err:0.0813526	top_item(id:0	real:4156133	query:4159488)
+	No thr.: 2	time: 13.2783	through.: 2.52702e+06	err:0.0813517	top_item(id:0	real:4156133	query:4159488)
+	No thr.: 4	time: 6.72314	through.: 4.99089e+06	err:0.0813487	top_item(id:0	real:4156133	query:4159375)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 26.7186	through.: 1.25585e+06	err:0.0853447	top_item(id:0	real:4156133	query:4159473)
+	No thr.: 2	time: 13.2647	through.: 2.5296e+06	err:0.0853468	top_item(id:0	real:4156133	query:4159446)
+	No thr.: 4	time: 6.71491	through.: 4.997e+06	err:0.0853494	top_item(id:0	real:4156133	query:4159430)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 26.721	through.: 1.25573e+06	err:0.084812	top_item(id:0	real:4149663	query:4153407)
+	No thr.: 2	time: 13.3294	through.: 2.51732e+06	err:0.0848114	top_item(id:0	real:4149663	query:4153407)
+	No thr.: 4	time: 6.72279	through.: 4.99114e+06	err:0.0848279	top_item(id:0	real:4149663	query:4153377)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 26.7325	through.: 1.25519e+06	err:0.0842857	top_item(id:0	real:4149663	query:4153918)
+	No thr.: 2	time: 13.3448	through.: 2.51441e+06	err:0.0842855	top_item(id:0	real:4149663	query:4153918)
+	No thr.: 4	time: 6.70021	through.: 5.00797e+06	err:0.0843048	top_item(id:0	real:4149663	query:4153905)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 26.7028	through.: 1.25659e+06	err:0.0883103	top_item(id:0	real:4144308	query:4147826)
+	No thr.: 2	time: 13.2371	through.: 2.53488e+06	err:0.0883107	top_item(id:0	real:4144308	query:4147826)
+	No thr.: 4	time: 6.68994	through.: 5.01565e+06	err:0.0883213	top_item(id:0	real:4144308	query:4147832)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 26.7603	through.: 1.25389e+06	err:0.0852398	top_item(id:0	real:4144308	query:4149076)
+	No thr.: 2	time: 13.2612	through.: 2.53027e+06	err:0.0852398	top_item(id:0	real:4144308	query:4149076)
+	No thr.: 4	time: 6.74337	through.: 4.97591e+06	err:0.0852342	top_item(id:0	real:4144308	query:4149063)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 26.6187	through.: 1.26056e+06	err:0.0827028	top_item(id:0	real:4149405	query:4153259)
+	No thr.: 2	time: 13.2191	through.: 2.53832e+06	err:0.0827028	top_item(id:0	real:4149405	query:4153259)
+	No thr.: 4	time: 6.71279	through.: 4.99858e+06	err:0.0826903	top_item(id:0	real:4149405	query:4153357)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 26.7695	through.: 1.25346e+06	err:0.088933	top_item(id:0	real:4149405	query:4154608)
+	No thr.: 2	time: 13.2688	through.: 2.52882e+06	err:0.0889329	top_item(id:0	real:4149405	query:4154607)
+	No thr.: 4	time: 6.72386	through.: 4.99035e+06	err:0.0889419	top_item(id:0	real:4149405	query:4154642)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 26.696	through.: 1.25691e+06	err:0.0864189	top_item(id:0	real:4147044	query:4151270)
+	No thr.: 2	time: 13.248	through.: 2.53279e+06	err:0.0864163	top_item(id:0	real:4147044	query:4151270)
+	No thr.: 4	time: 6.71657	through.: 4.99577e+06	err:0.086406	top_item(id:0	real:4147044	query:4151286)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 26.7366	through.: 1.255e+06	err:0.0828104	top_item(id:0	real:4147044	query:4150350)
+	No thr.: 2	time: 13.2748	through.: 2.52767e+06	err:0.0828103	top_item(id:0	real:4147044	query:4150350)
+	No thr.: 4	time: 6.72397	through.: 4.99027e+06	err:0.0828012	top_item(id:0	real:4147044	query:4150350)
+

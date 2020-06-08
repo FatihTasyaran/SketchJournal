@@ -1,0 +1,30 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:54.3373	through:1.97607e+07	error:0	top_item(id:21441281	real:1075669	query:1075669)
+no threads:. 2	time:83.4375	through:1.28688e+07	error:0.00104395	top_item(id:21441281	real:1075669	query:1074662)
+no threads:. 4	time:64.2845	through:1.6703e+07	error:0.00348284	top_item(id:21441281	real:1075669	query:1071984)
+no threads:. 8	time:40.7858	through:2.63264e+07	error:0.00826666	top_item(id:21441281	real:1075669	query:1067303)
+
+Single Table Merged Tabulation
+no threads:. 1	time:47.6517	through:2.25331e+07	error:0	top_item(id:21441281	real:1075669	query:1075669)
+no threads:. 2	time:85.0428	through:1.26259e+07	error:0.000744869	top_item(id:21441281	real:1075669	query:1074931)
+no threads:. 4	time:64.1489	through:1.67383e+07	error:0.00251899	top_item(id:21441281	real:1075669	query:1072916)
+no threads:. 8	time:40.953	through:2.62189e+07	error:0.00606393	top_item(id:21441281	real:1075669	query:1069103)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:54.7815	through:1.96004e+07	error:0.0997102	top_item(id:2919235	real:1076569	query:1076569)
+no threads:. 2	time:83.7549	through:1.282e+07	error:0.0992974	top_item(id:2919235	real:1076569	query:1075452)
+no threads:. 4	time:64.1137	through:1.67475e+07	error:0.0984043	top_item(id:2919235	real:1076569	query:1073001)
+no threads:. 8	time:41.0161	through:2.61785e+07	error:0.096806	top_item(id:2919235	real:1076569	query:1067795)
+
+Single Table Merged Tabulation
+no threads:. 1	time:47.6543	through:2.25319e+07	error:0.0997102	top_item(id:2919235	real:1076569	query:1076569)
+no threads:. 2	time:85.4798	through:1.25613e+07	error:0.099427	top_item(id:2919235	real:1076569	query:1075744)
+no threads:. 4	time:64.4998	through:1.66472e+07	error:0.0987442	top_item(id:2919235	real:1076569	query:1073905)
+no threads:. 8	time:40.7929	through:2.63218e+07	error:0.0975008	top_item(id:2919235	real:1076569	query:1069991)
+

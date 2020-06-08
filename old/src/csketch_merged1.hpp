@@ -1,0 +1,143 @@
+#ifndef CSKETCHM_H
+#define CSKETCHM_H
+
+#include <iostream>
+#include <algorithm>
+#include "hasher_merged.hpp"
+#include "common.h"
+#include "omp.h"
+
+template <class s_type, class d_type>
+class CSketch_M {
+  
+protected:
+  unsigned no_rows;
+  unsigned no_cols;
+  TabularHashMerged* hash_m;
+  s_type* table;
+
+  CSketch_M(double epsilon, double delta) {
+    no_rows = log2(1 / delta);
+    no_cols = (2 / epsilon);
+
+    //prime column count
+    bool found = false;
+    while(!found) {
+      found = true;
+      for(unsigned i = 2; i <= sqrt(no_cols); i++) {
+	if(no_cols % i == 0) {
+	  found = false;
+	  no_cols++;
+	}
+      }
+    }
+    
+    table = new s_type[this->no_rows * this->no_cols];
+    /*
+    D(
+    std::cout << "A sketch is created with " << this->no_rows << " rows and " << this->no_cols  << " columns " << std::endl;
+    );*/
+  }
+
+public:
+  virtual void set_hash(TabularHashMerged* hash_m) {
+    this->hash_m = hash_m;
+  }
+
+  virtual TabularHashMerged* get_hash() {
+    return this->hash_m;
+  }
+  
+  virtual s_type get(const unsigned& i, const unsigned& j) const {
+    return table[i * no_cols + j];
+  }
+  
+  virtual void add(const unsigned& i, const unsigned& j, const int& val) {
+    table[i * no_cols + j] += val;
+  }
+
+  virtual void insert(const d_type& data, uint32_t results_m[256]) = 0;
+  virtual s_type query(const d_type& data) = 0;
+
+  double getError(std::pair<s_type, d_type>* &freq_decreasing, unsigned hitterRankThreshold) {
+    double err = 0.0;
+      
+    for(int i = 0; i < hitterRankThreshold; i++) {
+      d_type curr = freq_decreasing[i].second;
+
+      s_type actual = freq_decreasing[i].first;
+      s_type guess = query(curr);
+      // std::cout << actual << " " << guess << "\n";
+      double cerr = ((double)(abs(guess - actual)) / actual);
+      err += cerr * cerr;
+    }
+    return sqrt(err / hitterRankThreshold);
+  }
+
+  void print() {
+    for(unsigned i = 0; i < no_rows; i++) {
+      for(unsigned j = 0; j < no_cols; j++) {
+	std::cout << get(i, j) << " ";
+      }
+      std::cout << std::endl;
+    }
+  }
+  
+  void reset() {
+    memset(table, 0, sizeof(s_type) * no_rows * no_cols);
+  }
+
+  unsigned get_no_rows() {
+    return no_rows;
+  }
+
+  unsigned get_no_cols() {
+    return no_cols;
+  }
+    
+  ~CSketch_M() {
+    delete [] table;
+  }
+};
+
+template <class s_type, class d_type>
+class CountMinSketch_M : public CSketch_M<s_type, d_type> {
+public:
+  CountMinSketch_M(double epsilon, double delta) : CSketch_M<s_type, d_type>(epsilon, delta) {}
+  
+  virtual void insert(const d_type& data, uint32_t results_m[256]) {
+    (this->hash_m)->hash(data, results_m);
+    //#pragma omp critical
+    //{
+      for(unsigned i = 0; i < this->no_rows; i++) {
+	unsigned col_id = (results_m[i]) % this->no_cols;
+	this->add(i, col_id, 1);
+      }
+      //}
+  }
+
+/*  virtual uint32_t hashElement(const d_type &data) {
+    (this->hash_m)->hash(data, this->results_m)
+    return *results_m;
+  }*/
+
+  virtual s_type query(const d_type& data) {
+    uint32_t results_m[256];
+    s_type r_freq, freq = std::numeric_limits<int>::max();
+
+    (this->hash_m)->hash(data, results_m);
+    
+    unsigned h_col;
+    for(unsigned i = 0; i < this->no_rows; i++) {
+      h_col = results_m[i] % this->no_cols;
+      r_freq = this->get(i, h_col);
+      if(r_freq < freq) {
+	freq = r_freq;
+      }
+    }
+    return freq;
+  }
+};
+#endif
+
+

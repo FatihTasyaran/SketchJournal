@@ -1,0 +1,150 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 18.5976	htime:1.25454	wtime:17.1773 	through.: 1.80423e+06	err:0	top_item(id:0	real:27912582	query:27912582)
+	No thr.: 2	time: 10.5871	htime:0.626423	wtime:9.87193 	through.: 3.16938e+06	err:0	top_item(id:0	real:27912582	query:27912582)
+	No thr.: 4	time: 5.4269	htime:0.337729	wtime:5.02727 	through.: 6.18298e+06	err:0	top_item(id:0	real:27912582	query:27912582)
+	No thr.: 8	time: 3.40586	htime:0.267452	wtime:3.04784 	through.: 9.85196e+06	err:0.00429034	top_item(id:0	real:27912582	query:26738949)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.8278	htime:1.8498	wtime:17.8135 	through.: 1.69229e+06	err:0	top_item(id:0	real:27912582	query:27912582)
+	No thr.: 2	time: 11.4714	htime:1.22287	wtime:10.1585 	through.: 2.92505e+06	err:0	top_item(id:0	real:27912582	query:27912582)
+	No thr.: 4	time: 5.94599	htime:0.810378	wtime:5.06989 	through.: 5.64321e+06	err:0	top_item(id:0	real:27912582	query:27912582)
+	No thr.: 8	time: 3.55584	htime:0.437137	wtime:3.03209 	through.: 9.43643e+06	err:0.00649654	top_item(id:0	real:27912582	query:26136679)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 19.0985	htime:1.26352	wtime:17.6691 	through.: 1.75692e+06	err:0	top_item(id:0	real:27920014	query:27920014)
+	No thr.: 2	time: 10.8233	htime:0.629357	wtime:10.1027 	through.: 3.1002e+06	err:0	top_item(id:0	real:27920014	query:27920014)
+	No thr.: 4	time: 5.48588	htime:0.331609	wtime:5.09008 	through.: 6.11651e+06	err:0	top_item(id:0	real:27920014	query:27920014)
+	No thr.: 8	time: 3.44585	htime:0.263437	wtime:3.09305 	through.: 9.73764e+06	err:0.00402783	top_item(id:0	real:27920014	query:26818706)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 18.7598	htime:1.25655	wtime:17.339 	through.: 1.78863e+06	err:0	top_item(id:0	real:27920014	query:27920014)
+	No thr.: 2	time: 10.7577	htime:0.625303	wtime:10.0413 	through.: 3.11912e+06	err:0	top_item(id:0	real:27920014	query:27920014)
+	No thr.: 4	time: 5.3822	htime:0.333417	wtime:4.9877 	through.: 6.23433e+06	err:0	top_item(id:0	real:27920014	query:27920014)
+	No thr.: 8	time: 3.38425	htime:0.261258	wtime:3.03855 	through.: 9.91489e+06	err:0.00527429	top_item(id:0	real:27920014	query:26478679)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 18.3858	htime:1.25156	wtime:16.9682 	through.: 1.82502e+06	err:0	top_item(id:0	real:27910581	query:27910581)
+	No thr.: 2	time: 10.4592	htime:0.630052	wtime:9.73529 	through.: 3.20813e+06	err:0	top_item(id:0	real:27910581	query:27910581)
+	No thr.: 4	time: 5.34208	htime:0.333455	wtime:4.94729 	through.: 6.28115e+06	err:0	top_item(id:0	real:27910581	query:27910581)
+	No thr.: 8	time: 3.39847	htime:0.263921	wtime:3.04962 	through.: 9.87338e+06	err:0.00452425	top_item(id:0	real:27910581	query:26678349)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.1658	htime:1.90298	wtime:17.0993 	through.: 1.75075e+06	err:0	top_item(id:0	real:27910581	query:27910581)
+	No thr.: 2	time: 11.0976	htime:1.26382	wtime:9.73965 	through.: 3.02358e+06	err:0	top_item(id:0	real:27910581	query:27910581)
+	No thr.: 4	time: 5.86408	htime:0.838865	wtime:4.96109 	through.: 5.72203e+06	err:0	top_item(id:0	real:27910581	query:27910581)
+	No thr.: 8	time: 3.51953	htime:0.449147	wtime:2.98671 	through.: 9.53377e+06	err:0.00870982	top_item(id:0	real:27910581	query:25529788)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 19.0823	htime:1.25112	wtime:17.6654 	through.: 1.75841e+06	err:0	top_item(id:0	real:27917133	query:27917133)
+	No thr.: 2	time: 10.8682	htime:0.626716	wtime:10.1469 	through.: 3.0874e+06	err:0	top_item(id:0	real:27917133	query:27917133)
+	No thr.: 4	time: 5.44388	htime:0.330965	wtime:5.04711 	through.: 6.1637e+06	err:0	top_item(id:0	real:27917133	query:27917133)
+	No thr.: 8	time: 3.44271	htime:0.265361	wtime:3.08625 	through.: 9.74653e+06	err:0.00346013	top_item(id:0	real:27917133	query:26974173)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.2921	htime:1.89007	wtime:17.2384 	through.: 1.73928e+06	err:0	top_item(id:0	real:27917133	query:27917133)
+	No thr.: 2	time: 11.1588	htime:1.2547	wtime:9.81422 	through.: 3.007e+06	err:0	top_item(id:0	real:27917133	query:27917133)
+	No thr.: 4	time: 5.8654	htime:0.832011	wtime:4.96699 	through.: 5.72074e+06	err:0	top_item(id:0	real:27917133	query:27917133)
+	No thr.: 8	time: 3.46475	htime:0.444988	wtime:2.93175 	through.: 9.68452e+06	err:0.0053707	top_item(id:0	real:27917133	query:26449269)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 18.3137	htime:1.25699	wtime:16.8917 	through.: 1.8322e+06	err:0	top_item(id:0	real:27912725	query:27912725)
+	No thr.: 2	time: 10.3596	htime:0.626345	wtime:9.63978 	through.: 3.23897e+06	err:0	top_item(id:0	real:27912725	query:27912725)
+	No thr.: 4	time: 5.25129	htime:0.334467	wtime:4.85396 	through.: 6.38975e+06	err:0	top_item(id:0	real:27912725	query:27912725)
+	No thr.: 8	time: 3.37749	htime:0.264897	wtime:3.02311 	through.: 9.93473e+06	err:0.00546897	top_item(id:0	real:27912725	query:26418617)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.2773	htime:1.26069	wtime:17.8525 	through.: 1.74062e+06	err:0	top_item(id:0	real:27912725	query:27912725)
+	No thr.: 2	time: 10.8945	htime:0.629903	wtime:10.1755 	through.: 3.07995e+06	err:0	top_item(id:0	real:27912725	query:27912725)
+	No thr.: 4	time: 5.58938	htime:0.331114	wtime:5.19545 	through.: 6.00325e+06	err:0	top_item(id:0	real:27912725	query:27912725)
+	No thr.: 8	time: 3.49588	htime:0.263934	wtime:3.14341 	through.: 9.59828e+06	err:0.00458329	top_item(id:0	real:27912725	query:26660788)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 18.8214	htime:1.25041	wtime:17.406 	through.: 1.78278e+06	err:0	top_item(id:0	real:27915025	query:27915025)
+	No thr.: 2	time: 10.6946	htime:0.628415	wtime:9.97752 	through.: 3.13751e+06	err:0	top_item(id:0	real:27915025	query:27915025)
+	No thr.: 4	time: 5.33787	htime:0.331616	wtime:4.94049 	through.: 6.28611e+06	err:0	top_item(id:0	real:27915025	query:27915025)
+	No thr.: 8	time: 3.42141	htime:0.264736	wtime:3.06729 	through.: 9.80719e+06	err:0.00505053	top_item(id:0	real:27915025	query:26539254)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.1142	htime:1.90286	wtime:17.048 	through.: 1.75547e+06	err:0	top_item(id:0	real:27915025	query:27915025)
+	No thr.: 2	time: 10.9797	htime:1.25876	wtime:9.63179 	through.: 3.05605e+06	err:0	top_item(id:0	real:27915025	query:27915025)
+	No thr.: 4	time: 5.86021	htime:0.836768	wtime:4.96092 	through.: 5.72581e+06	err:0	top_item(id:0	real:27915025	query:27915025)
+	No thr.: 8	time: 3.51236	htime:0.450484	wtime:2.97721 	through.: 9.55324e+06	err:0.00915682	top_item(id:0	real:27915025	query:25409405)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 19.0334	htime:1.24176	wtime:17.6267 	through.: 1.76292e+06	err:0	top_item(id:0	real:27914106	query:27914106)
+	No thr.: 2	time: 10.8931	htime:0.636248	wtime:10.1688 	through.: 3.08033e+06	err:0	top_item(id:0	real:27914106	query:27914106)
+	No thr.: 4	time: 5.39869	htime:0.332168	wtime:5.0047 	through.: 6.21529e+06	err:0	top_item(id:0	real:27914106	query:27914106)
+	No thr.: 8	time: 3.45787	htime:0.264588	wtime:3.10517 	through.: 9.70378e+06	err:0.00488549	top_item(id:0	real:27914106	query:26579481)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.0817	htime:1.25075	wtime:17.6675 	through.: 1.75846e+06	err:0	top_item(id:0	real:27914106	query:27914106)
+	No thr.: 2	time: 10.7891	htime:0.636284	wtime:10.0592 	through.: 3.11003e+06	err:0	top_item(id:0	real:27914106	query:27914106)
+	No thr.: 4	time: 5.4635	htime:0.335482	wtime:5.06416 	through.: 6.14156e+06	err:0	top_item(id:0	real:27914106	query:27914106)
+	No thr.: 8	time: 3.43573	htime:0.265422	wtime:3.08179 	through.: 9.76633e+06	err:0.00382859	top_item(id:0	real:27914106	query:26865866)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 18.7336	htime:1.26723	wtime:17.3003 	through.: 1.79113e+06	err:0	top_item(id:0	real:27912637	query:27912637)
+	No thr.: 2	time: 10.5869	htime:0.637101	wtime:9.86139 	through.: 3.16942e+06	err:0	top_item(id:0	real:27912637	query:27912637)
+	No thr.: 4	time: 5.35994	htime:0.332149	wtime:4.96271 	through.: 6.26023e+06	err:0	top_item(id:0	real:27912637	query:27912637)
+	No thr.: 8	time: 3.39924	htime:0.261878	wtime:3.05248 	through.: 9.87114e+06	err:0.00508331	top_item(id:0	real:27912637	query:26535353)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.3983	htime:1.89057	wtime:17.3433 	through.: 1.72976e+06	err:0	top_item(id:0	real:27912637	query:27912637)
+	No thr.: 2	time: 11.2155	htime:1.25681	wtime:9.86571 	through.: 2.9918e+06	err:0	top_item(id:0	real:27912637	query:27912637)
+	No thr.: 4	time: 5.87232	htime:0.831425	wtime:4.9736 	through.: 5.714e+06	err:0	top_item(id:0	real:27912637	query:27912637)
+	No thr.: 8	time: 3.52214	htime:0.447108	wtime:2.99067 	through.: 9.52672e+06	err:0.00635459	top_item(id:0	real:27912637	query:26177634)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 18.4597	htime:1.25735	wtime:17.0352 	through.: 1.81771e+06	err:0	top_item(id:0	real:27919560	query:27919560)
+	No thr.: 2	time: 10.643	htime:0.629026	wtime:9.92472 	through.: 3.15273e+06	err:0	top_item(id:0	real:27919560	query:27919560)
+	No thr.: 4	time: 5.44959	htime:0.33164	wtime:5.05732 	through.: 6.15724e+06	err:0	top_item(id:0	real:27919560	query:27919560)
+	No thr.: 8	time: 3.40682	htime:0.262984	wtime:3.05785 	through.: 9.8492e+06	err:0.00581261	top_item(id:0	real:27919560	query:26330591)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 18.5352	htime:1.26454	wtime:17.1051 	through.: 1.81031e+06	err:0	top_item(id:0	real:27919560	query:27919560)
+	No thr.: 2	time: 10.4451	htime:0.626079	wtime:9.72898 	through.: 3.21245e+06	err:0	top_item(id:0	real:27919560	query:27919560)
+	No thr.: 4	time: 5.3041	htime:0.331752	wtime:4.9114 	through.: 6.32614e+06	err:0	top_item(id:0	real:27919560	query:27919560)
+	No thr.: 8	time: 3.3885	htime:0.26372	wtime:3.04173 	through.: 9.90244e+06	err:0.00492437	top_item(id:0	real:27919560	query:26573570)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with single table 
+Experimenting with batch 
+	No thr.: 1	time: 18.1019	htime:1.25897	wtime:16.6783 	through.: 1.85364e+06	err:0	top_item(id:0	real:27909187	query:27909187)
+	No thr.: 2	time: 10.2943	htime:0.626003	wtime:9.5791 	through.: 3.2595e+06	err:0	top_item(id:0	real:27909187	query:27909187)
+	No thr.: 4	time: 5.22862	htime:0.332811	wtime:4.83558 	through.: 6.41746e+06	err:0	top_item(id:0	real:27909187	query:27909187)
+	No thr.: 8	time: 3.31562	htime:0.266877	wtime:2.96102 	through.: 1.01201e+07	err:0.00298558	top_item(id:0	real:27909187	query:27095822)
+
+Experimenting with batch and pdading
+	No thr.: 1	time: 19.1975	htime:1.85304	wtime:17.1805 	through.: 1.74785e+06	err:0	top_item(id:0	real:27909187	query:27909187)
+	No thr.: 2	time: 11.1568	htime:1.22881	wtime:9.83087 	through.: 3.00753e+06	err:0	top_item(id:0	real:27909187	query:27909187)
+	No thr.: 4	time: 5.78601	htime:0.810236	wtime:4.91167 	through.: 5.79923e+06	err:0	top_item(id:0	real:27909187	query:27909187)
+	No thr.: 8	time: 3.49864	htime:0.440708	wtime:2.96922 	through.: 9.59071e+06	err:0.0061662	top_item(id:0	real:27909187	query:26222103)
+

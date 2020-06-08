@@ -1,0 +1,45 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Merged Batched
+no threads:.1	time:62.4958	through:1.7181e+07	error:0	top_item(id:167772	real:1076456	query:1076456)
+no threads:.2	time:32.9728	through:3.25645e+07	error:8.10626e-06	top_item(id:167772	real:1076456	query:1076448)
+no threads:.4	time:18.1023	through:5.93151e+07	error:4.49617e-06	top_item(id:167772	real:1076456	query:1076453)
+no threads:.8	time:10.6246	through:1.01062e+08	error:4.76611e-06	top_item(id:167772	real:1076456	query:1076448)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Merged Batched
+no threads:.1	time:62.9419	through:1.70592e+07	error:0	top_item(id:6140460	real:1076166	query:1076166)
+no threads:.2	time:32.8039	through:3.27321e+07	error:6.23152e-06	top_item(id:6140460	real:1076166	query:1076157)
+no threads:.4	time:19.2895	through:5.56647e+07	error:5.62507e-06	top_item(id:6140460	real:1076166	query:1076162)
+no threads:.8	time:13.2747	through:8.08863e+07	error:4.03321e-06	top_item(id:6140460	real:1076166	query:1076164)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Merged Batched
+no threads:.1	time:61.6284	through:1.74228e+07	error:0	top_item(id:4764729	real:1076141	query:1076141)
+no threads:.2	time:31.6864	through:3.38865e+07	error:3.52559e-06	top_item(id:4764729	real:1076141	query:1076141)
+no threads:.4	time:17.8054	through:6.03044e+07	error:6.35998e-06	top_item(id:4764729	real:1076141	query:1076132)
+no threads:.8	time:10.6532	through:1.0079e+08	error:5.25701e-06	top_item(id:4764729	real:1076141	query:1076139)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Merged Batched
+no threads:.1	time:62.4265	through:1.72001e+07	error:0	top_item(id:17683185	real:1076042	query:1076042)
+no threads:.2	time:32.4687	through:3.307e+07	error:4.22536e-06	top_item(id:17683185	real:1076042	query:1076037)
+no threads:.4	time:18.3701	through:5.84505e+07	error:4.02541e-06	top_item(id:17683185	real:1076042	query:1076036)
+no threads:.8	time:10.8071	through:9.93552e+07	error:5.68775e-06	top_item(id:17683185	real:1076042	query:1076039)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 20011
+Experimenting with single table 
+Single Table Merged Batched
+no threads:.1	time:61.6519	through:1.74162e+07	error:0	top_item(id:24058527	real:1076028	query:1076028)
+no threads:.2	time:31.8929	through:3.36671e+07	error:5.44552e-06	top_item(id:24058527	real:1076028	query:1076019)
+no threads:.4	time:17.5652	through:6.11291e+07	error:5.45414e-06	top_item(id:24058527	real:1076028	query:1076023)
+no threads:.8	time:10.5231	through:1.02037e+08	error:5.87621e-06	top_item(id:24058527	real:1076028	query:1076024)
+

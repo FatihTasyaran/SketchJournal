@@ -1,0 +1,75 @@
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with batch and padding
+no thr:. 1	time: 19.5997	htime:1.05972	wtime:18.411 	through.: 1.71199e+06	error:0.0094434	top_item(id:0	real:12860476	query:12860608)
+no thr:. 2	time: 10.8512	htime:0.552979	wtime:10.2323 	through.: 3.09224e+06	error:0.00944269	top_item(id:0	real:12860476	query:12860287)
+no thr:. 4	time: 5.51542	htime:0.281687	wtime:5.18636 	through.: 6.08375e+06	error:0.0094434	top_item(id:0	real:12860476	query:12860608)
+no thr:. 8	time: 4.29152	htime:0.463714	wtime:4.1 	through.: 7.81877e+06	error:0.0095114	top_item(id:0	real:12860476	query:12860026)
+
+Experimenting with batch and padding and with barrier
+no thr:. 1	time: 20.0137	htime:1.62314	wtime:18.2367 	through.: 1.67657e+06	error:0.00999719	top_item(id:0	real:12860476	query:12860613)
+no thr:. 2	time: 11.2642	htime:1.02475	wtime:10.1483 	through.: 2.97886e+06	error:0.00999719	top_item(id:0	real:12860476	query:12860613)
+no thr:. 4	time: 5.85363	htime:0.651879	wtime:5.13768 	through.: 5.73224e+06	error:0.00999719	top_item(id:0	real:12860476	query:12860613)
+no thr:. 8	time: 4.21036	htime:0.456758	wtime:3.7101 	through.: 7.9695e+06	error:0.00999719	top_item(id:0	real:12860476	query:12860613)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with batch and padding
+no thr:. 1	time: 19.4985	htime:1.06554	wtime:18.305 	through.: 1.72088e+06	error:0.00910935	top_item(id:0	real:12851384	query:12851532)
+no thr:. 2	time: 10.8402	htime:0.549126	wtime:10.2256 	through.: 3.09538e+06	error:0.00910605	top_item(id:0	real:12851384	query:12851532)
+no thr:. 4	time: 5.49276	htime:0.280573	wtime:5.16534 	through.: 6.10884e+06	error:0.00910935	top_item(id:0	real:12851384	query:12851532)
+no thr:. 8	time: 4.19267	htime:0.462828	wtime:3.99947 	through.: 8.00311e+06	error:0.00908869	top_item(id:0	real:12851384	query:12851083)
+
+Experimenting with batch and padding and with barrier
+no thr:. 1	time: 20.1335	htime:1.62093	wtime:18.3576 	through.: 1.6666e+06	error:0.00917547	top_item(id:0	real:12851384	query:12851543)
+no thr:. 2	time: 11.3218	htime:1.02331	wtime:10.2085 	through.: 2.96371e+06	error:0.00917547	top_item(id:0	real:12851384	query:12851543)
+no thr:. 4	time: 5.88885	htime:0.652791	wtime:5.17101 	through.: 5.69796e+06	error:0.00917547	top_item(id:0	real:12851384	query:12851543)
+no thr:. 8	time: 4.27737	htime:0.456087	wtime:3.77595 	through.: 7.84464e+06	error:0.00917547	top_item(id:0	real:12851384	query:12851543)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with batch and padding
+no thr:. 1	time: 19.6549	htime:1.05865	wtime:18.4685 	through.: 1.70717e+06	error:0.0107253	top_item(id:0	real:12856789	query:12856988)
+no thr:. 2	time: 10.8879	htime:0.554015	wtime:10.2662 	through.: 3.08182e+06	error:0.010719	top_item(id:0	real:12856789	query:12856685)
+no thr:. 4	time: 5.5457	htime:0.279662	wtime:5.21841 	through.: 6.05053e+06	error:0.0107253	top_item(id:0	real:12856789	query:12856988)
+no thr:. 8	time: 4.27531	htime:0.464013	wtime:4.08088 	through.: 7.84843e+06	error:0.0106996	top_item(id:0	real:12856789	query:12856021)
+
+Experimenting with batch and padding and with barrier
+no thr:. 1	time: 19.9588	htime:1.62123	wtime:18.1838 	through.: 1.68119e+06	error:0.00927876	top_item(id:0	real:12856789	query:12857083)
+no thr:. 2	time: 11.2359	htime:1.02326	wtime:10.1217 	through.: 2.98637e+06	error:0.00927876	top_item(id:0	real:12856789	query:12857083)
+no thr:. 4	time: 5.8206	htime:0.652669	wtime:5.10563 	through.: 5.76477e+06	error:0.00927876	top_item(id:0	real:12856789	query:12857083)
+no thr:. 8	time: 4.20764	htime:0.453021	wtime:3.70878 	through.: 7.97465e+06	error:0.00927876	top_item(id:0	real:12856789	query:12857083)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with batch and padding
+no thr:. 1	time: 19.5128	htime:1.07067	wtime:18.3146 	through.: 1.71961e+06	error:0.00822287	top_item(id:0	real:12861509	query:12861677)
+no thr:. 2	time: 10.8473	htime:0.555921	wtime:10.2279 	through.: 3.09335e+06	error:0.00821487	top_item(id:0	real:12861509	query:12861677)
+no thr:. 4	time: 5.47636	htime:0.282403	wtime:5.1463 	through.: 6.12714e+06	error:0.00822287	top_item(id:0	real:12861509	query:12861677)
+no thr:. 8	time: 4.17887	htime:0.46434	wtime:3.98686 	through.: 8.02955e+06	error:0.00819224	top_item(id:0	real:12861509	query:12860666)
+
+Experimenting with batch and padding and with barrier
+no thr:. 1	time: 20.0576	htime:1.62337	wtime:18.2815 	through.: 1.6729e+06	error:0.00851123	top_item(id:0	real:12861509	query:12861693)
+no thr:. 2	time: 11.2991	htime:1.02561	wtime:10.1843 	through.: 2.96965e+06	error:0.00851123	top_item(id:0	real:12861509	query:12861693)
+no thr:. 4	time: 5.87122	htime:0.653611	wtime:5.15222 	through.: 5.71507e+06	error:0.00851123	top_item(id:0	real:12861509	query:12861693)
+no thr:. 8	time: 4.30136	htime:0.456979	wtime:3.79889 	through.: 7.80089e+06	error:0.00851123	top_item(id:0	real:12861509	query:12861693)
+
+Zipfian Distribution is: 1.5
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Experimenting with batch and padding
+no thr:. 1	time: 19.6053	htime:1.0664	wtime:18.4116 	through.: 1.7115e+06	error:0.00802679	top_item(id:0	real:12852901	query:12852989)
+no thr:. 2	time: 10.863	htime:0.550847	wtime:10.2457 	through.: 3.08887e+06	error:0.00802666	top_item(id:0	real:12852901	query:12852989)
+no thr:. 4	time: 5.53439	htime:0.280728	wtime:5.2056 	through.: 6.0629e+06	error:0.00802679	top_item(id:0	real:12852901	query:12852989)
+no thr:. 8	time: 4.22662	htime:0.460583	wtime:4.03423 	through.: 7.93884e+06	error:0.00800436	top_item(id:0	real:12852901	query:12852454)
+
+Experimenting with batch and padding and with barrier
+no thr:. 1	time: 20.1125	htime:1.62089	wtime:18.3397 	through.: 1.66834e+06	error:0.00888744	top_item(id:0	real:12852901	query:12853159)
+no thr:. 2	time: 11.3634	htime:1.04909	wtime:10.2224 	through.: 2.95286e+06	error:0.00888744	top_item(id:0	real:12852901	query:12853159)
+no thr:. 4	time: 5.88499	htime:0.669448	wtime:5.15174 	through.: 5.7017e+06	error:0.00888744	top_item(id:0	real:12852901	query:12853159)
+no thr:. 8	time: 4.18938	htime:0.454338	wtime:3.69254 	through.: 8.00939e+06	error:0.00888744	top_item(id:0	real:12852901	query:12853159)
+

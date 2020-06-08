@@ -1,0 +1,70 @@
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 4 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:14.5408	through:2.3076e+06	error:1.38518	top_item(id:0	real:4148674	query:4204147)
+no threads:. 2	time:7.99314	through:4.1979e+06	error:1.38498	top_item(id:0	real:4148674	query:4195628)
+no threads:. 4	time:4.63175	through:7.24444e+06	error:1.38445	top_item(id:0	real:4148674	query:4171851)
+
+Single Table Merged Tabulation
+no threads:. 1	time:16.2536	through:2.06443e+06	error:1.38518	top_item(id:0	real:4148674	query:4204147)
+no threads:. 2	time:8.68389	through:3.86398e+06	error:1.38371	top_item(id:0	real:4148674	query:4088319)
+no threads:. 4	time:4.93273	through:6.80241e+06	error:1.38253	top_item(id:0	real:4148674	query:4048564)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 4 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:14.5538	through:2.30554e+06	error:1.33787	top_item(id:0	real:4150659	query:4222896)
+no threads:. 2	time:7.95887	through:4.21598e+06	error:1.33767	top_item(id:0	real:4150659	query:4215322)
+no threads:. 4	time:4.64532	through:7.22328e+06	error:1.33721	top_item(id:0	real:4150659	query:4194477)
+
+Single Table Merged Tabulation
+no threads:. 1	time:16.3784	through:2.0487e+06	error:1.33787	top_item(id:0	real:4150659	query:4222896)
+no threads:. 2	time:8.67435	through:3.86824e+06	error:1.3367	top_item(id:0	real:4150659	query:4164178)
+no threads:. 4	time:4.98194	through:6.73521e+06	error:1.3356	top_item(id:0	real:4150659	query:4138864)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 4 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:14.7123	through:2.2807e+06	error:1.41633	top_item(id:0	real:4151861	query:4208240)
+no threads:. 2	time:8.0216	through:4.18301e+06	error:1.41612	top_item(id:0	real:4151861	query:4201860)
+no threads:. 4	time:4.65011	through:7.21584e+06	error:1.4156	top_item(id:0	real:4151861	query:4183786)
+
+Single Table Merged Tabulation
+no threads:. 1	time:16.7497	through:2.00329e+06	error:1.41633	top_item(id:0	real:4151861	query:4208240)
+no threads:. 2	time:8.76065	through:3.83013e+06	error:1.41505	top_item(id:0	real:4151861	query:4115726)
+no threads:. 4	time:4.96427	through:6.75919e+06	error:1.41388	top_item(id:0	real:4151861	query:3942000)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 4 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:14.4868	through:2.31621e+06	error:1.38456	top_item(id:0	real:4149185	query:4200290)
+no threads:. 2	time:7.93752	through:4.22732e+06	error:1.38433	top_item(id:0	real:4149185	query:4192757)
+no threads:. 4	time:4.73397	through:7.08801e+06	error:1.38382	top_item(id:0	real:4149185	query:4163974)
+
+Single Table Merged Tabulation
+no threads:. 1	time:16.3218	through:2.05581e+06	error:1.38456	top_item(id:0	real:4149185	query:4200290)
+no threads:. 2	time:8.65285	through:3.87785e+06	error:1.38375	top_item(id:0	real:4149185	query:4039235)
+no threads:. 4	time:5.01884	through:6.68569e+06	error:1.38272	top_item(id:0	real:4149185	query:4001760)
+
+Zipf Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 4 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:14.4314	through:2.32511e+06	error:1.41349	top_item(id:0	real:4151308	query:4224427)
+no threads:. 2	time:7.94394	through:4.2239e+06	error:1.41328	top_item(id:0	real:4151308	query:4208529)
+no threads:. 4	time:4.73979	through:7.07931e+06	error:1.41281	top_item(id:0	real:4151308	query:4170396)
+
+Single Table Merged Tabulation
+no threads:. 1	time:16.2477	through:2.06518e+06	error:1.41349	top_item(id:0	real:4151308	query:4224427)
+no threads:. 2	time:8.65695	through:3.87601e+06	error:1.41257	top_item(id:0	real:4151308	query:4050811)
+no threads:. 4	time:5.02997	through:6.6709e+06	error:1.41135	top_item(id:0	real:4151308	query:4027411)
+

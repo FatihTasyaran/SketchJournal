@@ -1,0 +1,3 @@
+# Run with
+# export OMP_PLACES={7},{6},{5},{4},{3},{2},{1},{0}; export OMP_PROC_BIND=close; ./pis args
+# For far cores => export OMP_PROC_BIND=spread

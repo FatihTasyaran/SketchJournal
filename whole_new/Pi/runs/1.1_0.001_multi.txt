@@ -1,0 +1,65 @@
+Zipfian Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:33.2936	through:1.00783e+06	error:0.0852672	top_item(id:0	real:4151575	query:4154117)
+no threads:. 2	time:17.1767	through:1.95348e+06	error:0.0852672	top_item(id:0	real:4151575	query:4154117)
+no threads:. 4	time:13.0886	through:2.56363e+06	error:0.0852672	top_item(id:0	real:4151575	query:4154117)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:30.3643	through:1.10506e+06	error:0.0852672	top_item(id:0	real:4151575	query:4154117)
+no threads:. 2	time:14.9898	through:2.23849e+06	error:0.0852672	top_item(id:0	real:4151575	query:4154117)
+no threads:. 4	time:10.9844	through:3.05474e+06	error:0.0852672	top_item(id:0	real:4151575	query:4154117)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:33.2768	through:1.00834e+06	error:0.0861507	top_item(id:0	real:4152499	query:4156772)
+no threads:. 2	time:17.4543	through:1.92242e+06	error:0.0861507	top_item(id:0	real:4152499	query:4156772)
+no threads:. 4	time:13.2555	through:2.53137e+06	error:0.0861507	top_item(id:0	real:4152499	query:4156772)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:30.2906	through:1.10775e+06	error:0.0861507	top_item(id:0	real:4152499	query:4156772)
+no threads:. 2	time:15.4523	through:2.17149e+06	error:0.0861507	top_item(id:0	real:4152499	query:4156772)
+no threads:. 4	time:11.3838	through:2.94756e+06	error:0.0861507	top_item(id:0	real:4152499	query:4156772)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:33.4952	through:1.00177e+06	error:0.0858055	top_item(id:0	real:4149019	query:4153160)
+no threads:. 2	time:17.0663	through:1.96612e+06	error:0.0858055	top_item(id:0	real:4149019	query:4153160)
+no threads:. 4	time:12.824	through:2.61654e+06	error:0.0858055	top_item(id:0	real:4149019	query:4153160)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:30.1715	through:1.11212e+06	error:0.0858055	top_item(id:0	real:4149019	query:4153160)
+no threads:. 2	time:14.829	through:2.26275e+06	error:0.0858055	top_item(id:0	real:4149019	query:4153160)
+no threads:. 4	time:10.1849	through:3.29453e+06	error:0.0858055	top_item(id:0	real:4149019	query:4153160)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:33.1728	through:1.0115e+06	error:0.0870622	top_item(id:0	real:4146505	query:4150396)
+no threads:. 2	time:16.6949	through:2.00986e+06	error:0.0870622	top_item(id:0	real:4146505	query:4150396)
+no threads:. 4	time:12.1751	through:2.75599e+06	error:0.0870622	top_item(id:0	real:4146505	query:4150396)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:30.024	through:1.11759e+06	error:0.0870622	top_item(id:0	real:4146505	query:4150396)
+no threads:. 2	time:14.7702	through:2.27177e+06	error:0.0870622	top_item(id:0	real:4146505	query:4150396)
+no threads:. 4	time:10.1725	through:3.29856e+06	error:0.0870622	top_item(id:0	real:4146505	query:4150396)
+
+Zipfian Distribution is: 1.1
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:33.1858	through:1.01111e+06	error:0.0846171	top_item(id:0	real:4151035	query:4154192)
+no threads:. 2	time:16.741	through:2.00433e+06	error:0.0846171	top_item(id:0	real:4151035	query:4154192)
+no threads:. 4	time:12.4228	through:2.70103e+06	error:0.0846171	top_item(id:0	real:4151035	query:4154192)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:30.1953	through:1.11125e+06	error:0.0846171	top_item(id:0	real:4151035	query:4154192)
+no threads:. 2	time:14.8608	through:2.25792e+06	error:0.0846171	top_item(id:0	real:4151035	query:4154192)
+no threads:. 4	time:10.5727	through:3.17367e+06	error:0.0846171	top_item(id:0	real:4151035	query:4154192)
+

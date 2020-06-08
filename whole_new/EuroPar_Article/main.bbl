@@ -1,0 +1,479 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{27}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Alon, Matias, and Szegedy}{Alon
+  et~al\mbox{.}}{1996}]%
+        {alon1996}
+\bibfield{author}{\bibinfo{person}{Noga Alon}, \bibinfo{person}{Yossi Matias},
+  {and} \bibinfo{person}{Mario Szegedy}.} \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{The Space Complexity of Approximating the Frequency
+  Moments}. In \bibinfo{booktitle}{\emph{Proceedings of the Twenty-eighth
+  Annual ACM Symposium on Theory of Computing}} \emph{(\bibinfo{series}{STOC
+  '96})}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{20--29}.
+\newblock
+\showISBNx{0-89791-785-5}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/237814.237823}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bloom}{Bloom}{1970}]%
+        {bloom1970}
+\bibfield{author}{\bibinfo{person}{Burton~H. Bloom}.}
+  \bibinfo{year}{1970}\natexlab{}.
+\newblock \showarticletitle{Space/Time Trade-offs in Hash Coding with Allowable
+  Errors}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{13},
+  \bibinfo{number}{7} (\bibinfo{date}{July} \bibinfo{year}{1970}),
+  \bibinfo{pages}{422--426}.
+\newblock
+\showISSN{0001-0782}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/362686.362692}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bonomi, Mitzenmacher, Panigrahy, Singh, and
+  Varghese}{Bonomi et~al\mbox{.}}{2006}]%
+        {Bonomi2006}
+\bibfield{author}{\bibinfo{person}{Flavio Bonomi}, \bibinfo{person}{Michael
+  Mitzenmacher}, \bibinfo{person}{Rina Panigrahy}, \bibinfo{person}{Sushil
+  Singh}, {and} \bibinfo{person}{George Varghese}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{An Improved Construction for Counting Bloom
+  Filters}. In \bibinfo{booktitle}{\emph{Proceedings of the 14th Conference on
+  Annual European Symposium - Volume 14}} \emph{(\bibinfo{series}{ESA'06})}.
+  \bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{London, UK, UK},
+  \bibinfo{pages}{684--695}.
+\newblock
+\showISBNx{3-540-38875-3}
+\urldef\tempurl%
+\url{https://doi.org/10.1007/11841036_61}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Broder, Mitzenmacher, and Mitzenmacher}{Broder
+  et~al\mbox{.}}{2002}]%
+        {broder2002}
+\bibfield{author}{\bibinfo{person}{Andrei Broder}, \bibinfo{person}{Michael
+  Mitzenmacher}, {and} \bibinfo{person}{Andrei Broder I~Michael Mitzenmacher}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Network Applications of Bloom Filters: A Survey}.
+  In \bibinfo{booktitle}{\emph{Internet Mathematics}}.
+  \bibinfo{pages}{636--646}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Brodnik and Munro}{Brodnik and Munro}{1999}]%
+        {brodnik1999}
+\bibfield{author}{\bibinfo{person}{Andrej Brodnik} {and}
+  \bibinfo{person}{J.~Ian Munro}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Membership in Constant Time and Almost-Minimum
+  Space}.
+\newblock \bibinfo{journal}{\emph{SIAM J. Comput.}} \bibinfo{volume}{28},
+  \bibinfo{number}{5} (\bibinfo{date}{May} \bibinfo{year}{1999}),
+  \bibinfo{pages}{1627--1640}.
+\newblock
+\showISSN{0097-5397}
+\urldef\tempurl%
+\url{https://doi.org/10.1137/S0097539795294165}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cafaro, Pulimeno, and Epicoco}{Cafaro
+  et~al\mbox{.}}{2018}]%
+        {cafaro2018}
+\bibfield{author}{\bibinfo{person}{Massimo Cafaro}, \bibinfo{person}{Marco
+  Pulimeno}, {and} \bibinfo{person}{Italo Epicoco}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Parallel mining of time-faded heavy hitters}.
+\newblock \bibinfo{journal}{\emph{Expert Systems with Applications}}
+  \bibinfo{volume}{96} (\bibinfo{year}{2018}), \bibinfo{pages}{115 -- 128}.
+\newblock
+\showISSN{0957-4174}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.eswa.2017.11.021}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cafaro, Pulimeno, Epicoco, and Aloisio}{Cafaro
+  et~al\mbox{.}}{2016}]%
+        {cafaro2016}
+\bibfield{author}{\bibinfo{person}{Massimo Cafaro}, \bibinfo{person}{Marco
+  Pulimeno}, \bibinfo{person}{Italo Epicoco}, {and} \bibinfo{person}{Giovanni
+  Aloisio}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Mining frequent items in the time fading model}.
+\newblock \bibinfo{journal}{\emph{Information Sciences}}
+  \bibinfo{volume}{370-371} (\bibinfo{year}{2016}), \bibinfo{pages}{221 --
+  238}.
+\newblock
+\showISSN{0020-0255}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.ins.2016.07.077}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chandramouli, Ali, Goldstein, Sezgin, and
+  Raman}{Chandramouli et~al\mbox{.}}{2010}]%
+        {chandramouli2010}
+\bibfield{author}{\bibinfo{person}{B. Chandramouli}, \bibinfo{person}{M. Ali},
+  \bibinfo{person}{J. Goldstein}, \bibinfo{person}{B. Sezgin}, {and}
+  \bibinfo{person}{B.~S. Raman}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Data Stream Management Systems for Computational
+  Finance}.
+\newblock \bibinfo{journal}{\emph{Computer}} \bibinfo{volume}{43},
+  \bibinfo{number}{12} (\bibinfo{date}{Dec} \bibinfo{year}{2010}),
+  \bibinfo{pages}{45--52}.
+\newblock
+\showISSN{0018-9162}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MC.2010.346}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Charikar, Chen, and Farach-Colton}{Charikar
+  et~al\mbox{.}}{2002}]%
+        {charikar2002}
+\bibfield{author}{\bibinfo{person}{Moses Charikar}, \bibinfo{person}{Kevin
+  Chen}, {and} \bibinfo{person}{Martin Farach-Colton}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Finding Frequent Items in Data Streams}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 29th International Colloquium on
+  Automata, Languages and Programming}} \emph{(\bibinfo{series}{ICALP '02})}.
+  \bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{Berlin, Heidelberg},
+  \bibinfo{pages}{693--703}.
+\newblock
+\showISBNx{3-540-43864-5}
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?id=646255.684566}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cormode, Korn, Muthukrishnan, and
+  Srivastava}{Cormode et~al\mbox{.}}{2003}]%
+        {cormode2003}
+\bibfield{author}{\bibinfo{person}{Graham Cormode}, \bibinfo{person}{Flip
+  Korn}, \bibinfo{person}{S. Muthukrishnan}, {and} \bibinfo{person}{Divesh
+  Srivastava}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Finding Hierarchical Heavy Hitters in Data
+  Streams}. In \bibinfo{booktitle}{\emph{Proceedings of the 29th International
+  Conference on Very Large Data Bases - Volume 29}}
+  \emph{(\bibinfo{series}{VLDB '03})}. \bibinfo{publisher}{VLDB Endowment},
+  \bibinfo{pages}{464--475}.
+\newblock
+\showISBNx{0-12-722442-4}
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?id=1315451.1315492}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cormode and Muthukrishnan}{Cormode and
+  Muthukrishnan}{2012}]%
+        {cormode2012}
+\bibfield{author}{\bibinfo{person}{Graham Cormode} {and} \bibinfo{person}{Muthu
+  Muthukrishnan}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Approximating Data with the Count-Min Sketch}.
+\newblock \bibinfo{journal}{\emph{IEEE Softw.}} \bibinfo{volume}{29},
+  \bibinfo{number}{1} (\bibinfo{date}{Jan.} \bibinfo{year}{2012}),
+  \bibinfo{pages}{64--69}.
+\newblock
+\showISSN{0740-7459}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/MS.2011.127}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Cormode and Muthukrishnan}{Cormode and
+  Muthukrishnan}{2005}]%
+        {cormode2005}
+\bibfield{author}{\bibinfo{person}{Graham Cormode} {and} \bibinfo{person}{S.
+  Muthukrishnan}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{An improved data stream summary: the count-min
+  sketch and its applications}.
+\newblock \bibinfo{journal}{\emph{Journal of Algorithms}} \bibinfo{volume}{55},
+  \bibinfo{number}{1} (\bibinfo{year}{2005}), \bibinfo{pages}{58 -- 75}.
+\newblock
+\showISSN{0196-6774}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.jalgor.2003.12.001}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Dahlgaard, Knudsen, and Thorup}{Dahlgaard
+  et~al\mbox{.}}{2017}]%
+        {Dahlgaard2017}
+\bibfield{author}{\bibinfo{person}{S{\o}ren Dahlgaard},
+  \bibinfo{person}{Mathias B{\ae}k~Tejs Knudsen}, {and} \bibinfo{person}{Mikkel
+  Thorup}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Practical Hash Functions for Similarity Estimation
+  and Dimensionality Reduction}. In \bibinfo{booktitle}{\emph{Advances in
+  Neural Information Processing Systems 30: Annual Conference on Neural
+  Information Processing Systems 2017, 4-9 December 2017, Long Beach, CA,
+  {USA}}}. \bibinfo{pages}{6618--6628}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Das, Antony, Agrawal, and El~Abbadi}{Das
+  et~al\mbox{.}}{2009}]%
+        {Das2009}
+\bibfield{author}{\bibinfo{person}{Sudipto Das}, \bibinfo{person}{Shyam
+  Antony}, \bibinfo{person}{Divyakant Agrawal}, {and} \bibinfo{person}{Amr
+  El~Abbadi}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Thread Cooperation in Multicore Architectures for
+  Frequency Counting over Multiple Data Streams}.
+\newblock \bibinfo{journal}{\emph{Proc. VLDB Endow.}} \bibinfo{volume}{2},
+  \bibinfo{number}{1} (\bibinfo{date}{Aug.} \bibinfo{year}{2009}),
+  \bibinfo{pages}{217--228}.
+\newblock
+\showISSN{2150-8097}
+\urldef\tempurl%
+\url{https://doi.org/10.14778/1687627.1687653}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Dobra, Garofalakis, Gehrke, and Rastogi}{Dobra
+  et~al\mbox{.}}{2002}]%
+        {dobra2002}
+\bibfield{author}{\bibinfo{person}{Alin Dobra}, \bibinfo{person}{Minos
+  Garofalakis}, \bibinfo{person}{Johannes Gehrke}, {and}
+  \bibinfo{person}{Rajeev Rastogi}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Processing Complex Aggregate Queries over Data
+  Streams}. In \bibinfo{booktitle}{\emph{Proceedings of the 2002 ACM SIGMOD
+  International Conference on Management of Data}}
+  \emph{(\bibinfo{series}{SIGMOD '02})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{61--72}.
+\newblock
+\showISBNx{1-58113-497-5}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/564691.564699}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Duffield and Grossglauser}{Duffield and
+  Grossglauser}{2001}]%
+        {duffield2001}
+\bibfield{author}{\bibinfo{person}{N.~G. Duffield} {and}
+  \bibinfo{person}{Matthias Grossglauser}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Trajectory Sampling for Direct Traffic
+  Observation}.
+\newblock \bibinfo{journal}{\emph{IEEE/ACM Trans. Netw.}} \bibinfo{volume}{9},
+  \bibinfo{number}{3} (\bibinfo{date}{June} \bibinfo{year}{2001}),
+  \bibinfo{pages}{280--292}.
+\newblock
+\showISSN{1063-6692}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/90.929851}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Fan, Cao, Almeida, and Broder}{Fan
+  et~al\mbox{.}}{1998}]%
+        {fan1998}
+\bibfield{author}{\bibinfo{person}{Li Fan}, \bibinfo{person}{Pei Cao},
+  \bibinfo{person}{Jussara Almeida}, {and} \bibinfo{person}{Andrei~Z. Broder}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Summary Cache: A Scalable Wide-area Web Cache
+  Sharing Protocol}. In \bibinfo{booktitle}{\emph{Proceedings of the ACM
+  SIGCOMM '98 Conference on Applications, Technologies, Architectures, and
+  Protocols for Computer Communication}} \emph{(\bibinfo{series}{SIGCOMM
+  '98})}. \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{254--265}.
+\newblock
+\showISBNx{1-58113-003-1}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/285237.285287}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Fan, Cao, Almeida, and Broder}{Fan
+  et~al\mbox{.}}{2000}]%
+        {Fan2000}
+\bibfield{author}{\bibinfo{person}{Li Fan}, \bibinfo{person}{Pei Cao},
+  \bibinfo{person}{Jussara Almeida}, {and} \bibinfo{person}{Andrei~Z. Broder}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Summary Cache: A Scalable Wide-area Web Cache
+  Sharing Protocol}.
+\newblock \bibinfo{journal}{\emph{IEEE/ACM Trans. Netw.}} \bibinfo{volume}{8},
+  \bibinfo{number}{3} (\bibinfo{date}{June} \bibinfo{year}{2000}),
+  \bibinfo{pages}{281--293}.
+\newblock
+\showISSN{1063-6692}
+\urldef\tempurl%
+\url{https://doi.org/10.1109/90.851975}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gilbert, Kotidis, Muthukrishnan, and
+  Strauss}{Gilbert et~al\mbox{.}}{2002}]%
+        {gilbert2002}
+\bibfield{author}{\bibinfo{person}{Anna~C. Gilbert}, \bibinfo{person}{Yannis
+  Kotidis}, \bibinfo{person}{S. Muthukrishnan}, {and}
+  \bibinfo{person}{Martin~J. Strauss}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{How to Summarize the Universe: Dynamic Maintenance
+  of Quantiles}. In \bibinfo{booktitle}{\emph{Proceedings of the 28th
+  International Conference on Very Large Data Bases}}
+  \emph{(\bibinfo{series}{VLDB '02})}. \bibinfo{publisher}{VLDB Endowment},
+  \bibinfo{pages}{454--465}.
+\newblock
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?id=1287369.1287409}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Goyal, Daum{\'e}, and Cormode}{Goyal
+  et~al\mbox{.}}{2012}]%
+        {Goyal2012}
+\bibfield{author}{\bibinfo{person}{Amit Goyal}, \bibinfo{person}{Hal Daum{\'e},
+  III}, {and} \bibinfo{person}{Graham Cormode}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Sketch Algorithms for Estimating Point Queries in
+  NLP}. In \bibinfo{booktitle}{\emph{Proceedings of the 2012 Joint Conference
+  on Empirical Methods in Natural Language Processing and Computational Natural
+  Language Learning}} \emph{(\bibinfo{series}{EMNLP-CoNLL '12})}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Stroudsburg, PA, USA}, \bibinfo{pages}{1093--1103}.
+\newblock
+\urldef\tempurl%
+\url{http://dl.acm.org/citation.cfm?id=2390948.2391070}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Muthukrishnan}{Muthukrishnan}{2005}]%
+        {muthukrishnan2005}
+\bibfield{author}{\bibinfo{person}{S. Muthukrishnan}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Data Streams: Algorithms and Applications}.
+\newblock \bibinfo{journal}{\emph{Found. Trends Theor. Comput. Sci.}}
+  \bibinfo{volume}{1}, \bibinfo{number}{2} (\bibinfo{date}{Aug.}
+  \bibinfo{year}{2005}), \bibinfo{pages}{117--236}.
+\newblock
+\showISSN{1551-305X}
+\urldef\tempurl%
+\url{https://doi.org/10.1561/0400000002}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{P\v{a}tra\c{s}cu and Thorup}{P\v{a}tra\c{s}cu
+  and Thorup}{2012}]%
+        {patrascu2012}
+\bibfield{author}{\bibinfo{person}{Mihai P\v{a}tra\c{s}cu} {and}
+  \bibinfo{person}{Mikkel Thorup}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{The Power of Simple Tabulation Hashing}.
+\newblock \bibinfo{journal}{\emph{J. ACM}} \bibinfo{volume}{59},
+  \bibinfo{number}{3}, Article \bibinfo{articleno}{14} (\bibinfo{date}{June}
+  \bibinfo{year}{2012}), \bibinfo{numpages}{50}~pages.
+\newblock
+\showISSN{0004-5411}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2220357.2220361}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Roy, Khan, and Alonso}{Roy
+  et~al\mbox{.}}{2016}]%
+        {roy2016}
+\bibfield{author}{\bibinfo{person}{Pratanu Roy}, \bibinfo{person}{Arijit Khan},
+  {and} \bibinfo{person}{Gustavo Alonso}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Augmented Sketch: Faster and More Accurate Stream
+  Processing}. In \bibinfo{booktitle}{\emph{Proceedings of the 2016
+  International Conference on Management of Data}}
+  \emph{(\bibinfo{series}{SIGMOD '16})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1449--1463}.
+\newblock
+\showISBNx{978-1-4503-3531-7}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2882903.2882948}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Thomas, Bordawekar, Aggarwal, and Yu}{Thomas
+  et~al\mbox{.}}{2007}]%
+        {Thomas2007}
+\bibfield{author}{\bibinfo{person}{Dina Thomas}, \bibinfo{person}{Rajesh
+  Bordawekar}, \bibinfo{person}{Charu Aggarwal}, {and}
+  \bibinfo{person}{Philip~S. Yu}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{A Frequency-aware Parallel Algorithm for
+  Counting Stream Items on Multicore Processors}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{IBM}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Thorup}{Thorup}{2017}]%
+        {thorup2017}
+\bibfield{author}{\bibinfo{person}{Mikkel Thorup}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Fast and Powerful Hashing Using Tabulation}.
+\newblock \bibinfo{journal}{\emph{Commun. ACM}} \bibinfo{volume}{60},
+  \bibinfo{number}{7} (\bibinfo{date}{June} \bibinfo{year}{2017}),
+  \bibinfo{pages}{94--101}.
+\newblock
+\showISSN{0001-0782}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3068772}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zipf}{Zipf}{1935}]%
+        {Zipf1935}
+\bibfield{author}{\bibinfo{person}{George Zipf}.}
+  \bibinfo{year}{1935}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Psychobiology of Language: An
+  Introduction to Dynamic Philology}}.
+\newblock \bibinfo{publisher}{M.I.T. Press}, \bibinfo{address}{Cambridge,
+  Mass.}
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zobrist}{Zobrist}{1970}]%
+        {zobrist1970}
+\bibfield{author}{\bibinfo{person}{A.~L. Zobrist}.} \bibinfo{year}{University
+  of Wisconsin, Madison, Wisconsin, 1970}\natexlab{}.
+\newblock \showarticletitle{A new hashing method with application for game
+  playing}.
+\newblock \bibinfo{journal}{\emph{Technical Report 88}}
+  (\bibinfo{year}{University of Wisconsin, Madison, Wisconsin, 1970}).
+\newblock
+
+
+\end{thebibliography}

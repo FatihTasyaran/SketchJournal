@@ -1,0 +1,30 @@
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:51.765	through:2.07426e+07	error:2.11267	top_item(id:8959033	real:1075853	query:2148564)
+no threads:. 2	time:102.21	through:1.05052e+07	error:2.10056	top_item(id:8959033	real:1075853	query:2143868)
+no threads:. 4	time:74.8998	through:1.43357e+07	error:2.07388	top_item(id:8959033	real:1075853	query:2133120)
+no threads:. 8	time:47.9022	through:2.24153e+07	error:2.02342	top_item(id:8959033	real:1075853	query:2112901)
+
+Single Table Merged Tabulation
+no threads:. 1	time:47.9506	through:2.23926e+07	error:2.11267	top_item(id:8959033	real:1075853	query:2148564)
+no threads:. 2	time:102.652	through:1.046e+07	error:2.10342	top_item(id:8959033	real:1075853	query:2144936)
+no threads:. 4	time:78.902	through:1.36085e+07	error:2.08288	top_item(id:8959033	real:1075853	query:2136696)
+no threads:. 8	time:49.1036	through:2.18669e+07	error:2.04456	top_item(id:8959033	real:1075853	query:2121429)
+
+No of elements in stream : 1073741824
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Single Table Naive Version
+no threads:. 1	time:51.3093	through:2.09268e+07	error:2.15247	top_item(id:1476394	real:1075494	query:4292747)
+no threads:. 2	time:102.527	through:1.04728e+07	error:2.14006	top_item(id:1476394	real:1075494	query:4273857)
+no threads:. 4	time:75.039	through:1.43091e+07	error:2.11271	top_item(id:1476394	real:1075494	query:4231599)
+no threads:. 8	time:47.9298	through:2.24024e+07	error:2.06079	top_item(id:1476394	real:1075494	query:4152014)
+
+Single Table Merged Tabulation
+no threads:. 1	time:47.5634	through:2.2575e+07	error:2.15247	top_item(id:1476394	real:1075494	query:4292747)
+no threads:. 2	time:102.904	through:1.04344e+07	error:2.143	top_item(id:1476394	real:1075494	query:4278125)
+no threads:. 4	time:78.7414	through:1.36363e+07	error:2.12169	top_item(id:1476394	real:1075494	query:4245210)
+no threads:. 8	time:49.0558	through:2.18882e+07	error:2.08207	top_item(id:1476394	real:1075494	query:4184386)
+

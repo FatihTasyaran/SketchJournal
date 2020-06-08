@@ -1,0 +1,65 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+Using Merged Hash Tables
+	No thr.: 1	time: 29.7291	through.: 1.12867e+06	err:0.0888605	top_item(id:0	real:4149288	query:4152832)
+	No thr.: 2	time: 15.1761	through.: 2.21101e+06	err:0.0888605	top_item(id:0	real:4149288	query:4152832)
+	No thr.: 4	time: 8.50743	through.: 3.94413e+06	err:0.0888605	top_item(id:0	real:4149288	query:4152832)
+
+Naive
+	No thr.: 1	time: 32.3971	through.: 1.03572e+06	err:0.0888605	top_item(id:0	real:4149288	query:4152832)
+	No thr.: 2	time: 16.1613	through.: 2.07622e+06	err:0.0888605	top_item(id:0	real:4149288	query:4152832)
+	No thr.: 4	time: 9.62907	through.: 3.4847e+06	err:0.0888605	top_item(id:0	real:4149288	query:4152832)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+Using Merged Hash Tables
+	No thr.: 1	time: 29.7903	through.: 1.12636e+06	err:0.0860215	top_item(id:0	real:4148175	query:4153415)
+	No thr.: 2	time: 15.1403	through.: 2.21624e+06	err:0.0860215	top_item(id:0	real:4148175	query:4153415)
+	No thr.: 4	time: 8.63567	through.: 3.88556e+06	err:0.0860215	top_item(id:0	real:4148175	query:4153415)
+
+Naive
+	No thr.: 1	time: 32.4659	through.: 1.03353e+06	err:0.0860215	top_item(id:0	real:4148175	query:4153415)
+	No thr.: 2	time: 16.2854	through.: 2.0604e+06	err:0.0860215	top_item(id:0	real:4148175	query:4153415)
+	No thr.: 4	time: 9.98231	through.: 3.36139e+06	err:0.0860215	top_item(id:0	real:4148175	query:4153415)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+Using Merged Hash Tables
+	No thr.: 1	time: 29.5978	through.: 1.13368e+06	err:0.0842963	top_item(id:0	real:4151848	query:4155875)
+	No thr.: 2	time: 15.1274	through.: 2.21813e+06	err:0.0842963	top_item(id:0	real:4151848	query:4155875)
+	No thr.: 4	time: 9.1093	through.: 3.68354e+06	err:0.0842963	top_item(id:0	real:4151848	query:4155875)
+
+Naive
+	No thr.: 1	time: 32.3638	through.: 1.03679e+06	err:0.0842963	top_item(id:0	real:4151848	query:4155875)
+	No thr.: 2	time: 16.1181	through.: 2.08178e+06	err:0.0842963	top_item(id:0	real:4151848	query:4155875)
+	No thr.: 4	time: 10.1339	through.: 3.3111e+06	err:0.0842963	top_item(id:0	real:4151848	query:4155875)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+Using Merged Hash Tables
+	No thr.: 1	time: 29.7933	through.: 1.12624e+06	err:0.0810945	top_item(id:0	real:4148968	query:4152356)
+	No thr.: 2	time: 14.8077	through.: 2.26601e+06	err:0.0810945	top_item(id:0	real:4148968	query:4152356)
+	No thr.: 4	time: 9.10167	through.: 3.68662e+06	err:0.0810945	top_item(id:0	real:4148968	query:4152356)
+
+Naive
+	No thr.: 1	time: 32.4002	through.: 1.03563e+06	err:0.0810945	top_item(id:0	real:4148968	query:4152356)
+	No thr.: 2	time: 16.1617	through.: 2.07617e+06	err:0.0810945	top_item(id:0	real:4148968	query:4152356)
+	No thr.: 4	time: 10.3713	through.: 3.23531e+06	err:0.0810945	top_item(id:0	real:4148968	query:4152356)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 2003
+ Experimenting with multiple sketches distributed to the threads 
+Using Merged Hash Tables
+	No thr.: 1	time: 29.4804	through.: 1.13819e+06	err:0.0863678	top_item(id:0	real:4148587	query:4152298)
+	No thr.: 2	time: 15.0847	through.: 2.22441e+06	err:0.0863678	top_item(id:0	real:4148587	query:4152298)
+	No thr.: 4	time: 9.24084	through.: 3.6311e+06	err:0.0863678	top_item(id:0	real:4148587	query:4152298)
+
+Naive
+	No thr.: 1	time: 32.4018	through.: 1.03557e+06	err:0.0863678	top_item(id:0	real:4148587	query:4152298)
+	No thr.: 2	time: 16.0698	through.: 2.08804e+06	err:0.0863678	top_item(id:0	real:4148587	query:4152298)
+	No thr.: 4	time: 10.6209	through.: 3.15929e+06	err:0.0863678	top_item(id:0	real:4148587	query:4152298)
+

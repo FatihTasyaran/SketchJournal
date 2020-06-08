@@ -1,0 +1,75 @@
+Zipfian Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:17.9169	through:1.87278e+06	error:0	top_item(id:0	real:27915595	query:27915595)
+no threads:. 2	time:9.02485	through:3.718e+06	error:0	top_item(id:0	real:27915595	query:27915595)
+no threads:. 4	time:4.64741	through:7.22002e+06	error:0	top_item(id:0	real:27915595	query:27915595)
+no threads:. 8	time:3.01923	through:1.11136e+07	error:0	top_item(id:0	real:27915595	query:27915595)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:17.216	through:1.94902e+06	error:0	top_item(id:0	real:27915595	query:27915595)
+no threads:. 2	time:8.61418	through:3.89526e+06	error:0	top_item(id:0	real:27915595	query:27915595)
+no threads:. 4	time:4.3871	through:7.64843e+06	error:0	top_item(id:0	real:27915595	query:27915595)
+no threads:. 8	time:2.87652	through:1.1665e+07	error:0	top_item(id:0	real:27915595	query:27915595)
+
+Zipfian Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:17.2149	through:1.94915e+06	error:0	top_item(id:0	real:27914510	query:27914510)
+no threads:. 2	time:8.60396	through:3.89988e+06	error:0	top_item(id:0	real:27914510	query:27914510)
+no threads:. 4	time:4.40203	through:7.62249e+06	error:0	top_item(id:0	real:27914510	query:27914510)
+no threads:. 8	time:3.41333	through:9.83041e+06	error:0	top_item(id:0	real:27914510	query:27914510)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:16.9196	through:1.98317e+06	error:0	top_item(id:0	real:27914510	query:27914510)
+no threads:. 2	time:8.45986	through:3.96631e+06	error:0	top_item(id:0	real:27914510	query:27914510)
+no threads:. 4	time:4.31193	through:7.78177e+06	error:0	top_item(id:0	real:27914510	query:27914510)
+no threads:. 8	time:2.87982	through:1.16516e+07	error:0	top_item(id:0	real:27914510	query:27914510)
+
+Zipfian Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:18.8686	through:1.77833e+06	error:0	top_item(id:0	real:27912333	query:27912333)
+no threads:. 2	time:9.63563	through:3.48233e+06	error:0	top_item(id:0	real:27912333	query:27912333)
+no threads:. 4	time:5.0737	through:6.61341e+06	error:0	top_item(id:0	real:27912333	query:27912333)
+no threads:. 8	time:3.16947	through:1.05868e+07	error:0	top_item(id:0	real:27912333	query:27912333)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:17.2291	through:1.94754e+06	error:0	top_item(id:0	real:27912333	query:27912333)
+no threads:. 2	time:8.62167	through:3.89187e+06	error:0	top_item(id:0	real:27912333	query:27912333)
+no threads:. 4	time:4.40752	through:7.613e+06	error:0	top_item(id:0	real:27912333	query:27912333)
+no threads:. 8	time:2.89166	through:1.16039e+07	error:0	top_item(id:0	real:27912333	query:27912333)
+
+Zipfian Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:18.683	through:1.79598e+06	error:0	top_item(id:0	real:27903200	query:27903200)
+no threads:. 2	time:9.52726	through:3.52194e+06	error:0	top_item(id:0	real:27903200	query:27903200)
+no threads:. 4	time:5.02744	through:6.67425e+06	error:0	top_item(id:0	real:27903200	query:27903200)
+no threads:. 8	time:3.16124	through:1.06143e+07	error:0	top_item(id:0	real:27903200	query:27903200)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:17.0139	through:1.97218e+06	error:0	top_item(id:0	real:27903200	query:27903200)
+no threads:. 2	time:8.51033	through:3.94279e+06	error:0	top_item(id:0	real:27903200	query:27903200)
+no threads:. 4	time:4.34622	through:7.72038e+06	error:0	top_item(id:0	real:27903200	query:27903200)
+no threads:. 8	time:2.88598	through:1.16267e+07	error:0	top_item(id:0	real:27903200	query:27903200)
+
+Zipfian Distribution is: 3
+No of elements in stream : 33554432
+Size of the sketch: 8 by 20011
+Multiple Tables Naive Tabulation Hash
+no threads:. 1	time:19.1893	through:1.7486e+06	error:0	top_item(id:0	real:27914949	query:27914949)
+no threads:. 2	time:9.78529	through:3.42907e+06	error:0	top_item(id:0	real:27914949	query:27914949)
+no threads:. 4	time:5.16262	through:6.49949e+06	error:0	top_item(id:0	real:27914949	query:27914949)
+no threads:. 8	time:3.16181	through:1.06124e+07	error:0	top_item(id:0	real:27914949	query:27914949)
+
+Multiple Tables Merged Tabulation Hash
+no threads:. 1	time:17.4571	through:1.92211e+06	error:0	top_item(id:0	real:27914949	query:27914949)
+no threads:. 2	time:8.73759	through:3.84024e+06	error:0	top_item(id:0	real:27914949	query:27914949)
+no threads:. 4	time:4.46128	through:7.52125e+06	error:0	top_item(id:0	real:27914949	query:27914949)
+no threads:. 8	time:2.88056	through:1.16486e+07	error:0	top_item(id:0	real:27914949	query:27914949)
+

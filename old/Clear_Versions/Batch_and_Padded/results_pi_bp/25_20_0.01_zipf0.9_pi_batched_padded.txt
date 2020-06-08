@@ -1,0 +1,65 @@
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.891	through.: 1.20306e+06	err:3.84583	top_item(id:0	real:1094587	query:1197682)
+	No thr.: 2	time: 19.092	through.: 1.75751e+06	err:3.84595	top_item(id:0	real:1094587	query:1197679)
+	No thr.: 4	time: 44.9255	through.: 746891	err:3.84646	top_item(id:0	real:1094587	query:1198513)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.7981	through.: 1.20708e+06	err:3.86918	top_item(id:0	real:1094587	query:1206508)
+	No thr.: 2	time: 13.9416	through.: 2.40678e+06	err:3.8692	top_item(id:0	real:1094587	query:1206519)
+	No thr.: 4	time: 46.6631	through.: 719078	err:3.86797	top_item(id:0	real:1094587	query:1207531)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.6876	through.: 1.21189e+06	err:3.94455	top_item(id:0	real:1092808	query:1207152)
+	No thr.: 2	time: 21.188	through.: 1.58366e+06	err:3.94463	top_item(id:0	real:1092808	query:1207106)
+	No thr.: 4	time: 47.5375	through.: 705852	err:3.94444	top_item(id:0	real:1092808	query:1207344)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.852	through.: 1.20474e+06	err:3.86652	top_item(id:0	real:1092808	query:1215038)
+	No thr.: 2	time: 13.9476	through.: 2.40575e+06	err:3.86651	top_item(id:0	real:1092808	query:1215038)
+	No thr.: 4	time: 47.3455	through.: 708714	err:3.8666	top_item(id:0	real:1092808	query:1214211)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.9462	through.: 1.20068e+06	err:3.91114	top_item(id:0	real:1091125	query:1207314)
+	No thr.: 2	time: 20.226	through.: 1.65897e+06	err:3.91093	top_item(id:0	real:1091125	query:1207320)
+	No thr.: 4	time: 45.1446	through.: 743266	err:3.91035	top_item(id:0	real:1091125	query:1207883)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.8509	through.: 1.20479e+06	err:3.87811	top_item(id:0	real:1091125	query:1198656)
+	No thr.: 2	time: 13.9079	through.: 2.41262e+06	err:3.87811	top_item(id:0	real:1091125	query:1198656)
+	No thr.: 4	time: 47.7692	through.: 702428	err:3.87863	top_item(id:0	real:1091125	query:1198325)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 28.7468	through.: 1.16724e+06	err:3.86191	top_item(id:0	real:1097002	query:1204422)
+	No thr.: 2	time: 13.9916	through.: 2.39818e+06	err:3.86188	top_item(id:0	real:1097002	query:1204431)
+	No thr.: 4	time: 40.271	through.: 833215	err:3.86253	top_item(id:0	real:1097002	query:1204294)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.8125	through.: 1.20645e+06	err:3.86612	top_item(id:0	real:1097002	query:1217781)
+	No thr.: 2	time: 13.989	through.: 2.39863e+06	err:3.86611	top_item(id:0	real:1097002	query:1217790)
+	No thr.: 4	time: 7.04416	through.: 4.76344e+06	err:3.8661	top_item(id:0	real:1097002	query:1217760)
+
+No of elements in stream : 33554432
+Size of the sketch: 8 by 211
+Experimenting with single table 
+Experimenting with Batch and Merged Hash Tables
+	No thr.: 1	time: 27.6578	through.: 1.2132e+06	err:3.87171	top_item(id:0	real:1096381	query:1205029)
+	No thr.: 2	time: 13.9159	through.: 2.41122e+06	err:3.87171	top_item(id:0	real:1096381	query:1205027)
+	No thr.: 4	time: 7.02447	through.: 4.77679e+06	err:3.87169	top_item(id:0	real:1096381	query:1205017)
+
+Experimenting with Batch, Padding and Merged Hash Tables
+	No thr.: 1	time: 27.6983	through.: 1.21142e+06	err:3.84059	top_item(id:0	real:1096381	query:1211710)
+	No thr.: 2	time: 13.9191	through.: 2.41068e+06	err:3.84059	top_item(id:0	real:1096381	query:1211710)
+	No thr.: 4	time: 7.03142	through.: 4.77207e+06	err:3.84061	top_item(id:0	real:1096381	query:1211678)
+
